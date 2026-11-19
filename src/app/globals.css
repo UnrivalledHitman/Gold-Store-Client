@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #FAF7F2;
+  --bg-surface: #F3ECE1;
+  --bg-elevated: #FFFFFF;
+  --bg-dark: #1C1514;
+  --text-primary: #1C1514;
+  --text-secondary: #5C504A;
+  --text-muted: #8C7E75;
+  --accent-gold: #C69C4D;
+  --accent-gold-hover: #AE8439;
+  --accent-garnet: #7A1E2C;
+  --border-hairline: #E5DDD0;
+  --status-success: #2E6B4E;
+}
+
+@theme inline {
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+  --color-canvas: var(--bg-canvas);
+  --color-surface: var(--bg-surface);
+  --color-elevated: var(--bg-elevated);
+  --color-dark: var(--bg-dark);
+  --color-ink: var(--text-primary);
+  --color-ink-secondary: var(--text-secondary);
+  --color-ink-muted: var(--text-muted);
+  --color-gold: var(--accent-gold);
+  --color-gold-hover: var(--accent-gold-hover);
+  --color-garnet: var(--accent-garnet);
+  --color-hairline: var(--border-hairline);
+  --color-success: var(--status-success);
+}
+
+html {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
