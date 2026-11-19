@@ -134,7 +134,7 @@ export function ShopTheLookSection() {
         {/* Lookbook Frame + Styled Breakdown Split */}
         <div className="mt-9 grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
           {/* Left: Interactive Hotspot Canvas */}
-          <div className="lg:col-span-6">
+          <div className="min-w-0 lg:col-span-6">
             <div className="relative w-full overflow-hidden rounded-[2px] border border-[#E5DDD0] bg-[#F3ECE1]">
               <img
                 src={activeScene.image}
@@ -263,15 +263,15 @@ export function ShopTheLookSection() {
           </div>
 
           {/* Right: Editorial Narrative + Styled Pieces Breakdown */}
-          <div className="flex flex-col justify-between lg:col-span-6">
+          <div className="flex min-w-0 flex-col justify-between lg:col-span-6">
             <div className="border-b border-[#E5DDD0] pb-5">
-              <div className="flex items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center justify-between gap-3">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#AE8439]">
                   {activeScene.subtitle}
                 </p>
                 <Link
                   href={`/collections/${activeScene.collection}`}
-                  className="text-[11px] font-medium uppercase tracking-[0.12em] text-[#5C504A] underline decoration-[#C69C4D]/60 underline-offset-4 hover:text-[#1C1514]"
+                  className="shrink-0 whitespace-nowrap text-[11px] font-medium uppercase tracking-[0.12em] text-[#5C504A] underline decoration-[#C69C4D]/60 underline-offset-4 hover:text-[#1C1514]"
                 >
                   Explore House →
                 </Link>
@@ -284,8 +284,8 @@ export function ShopTheLookSection() {
               </p>
 
               {activeScene.collection === 'solis' ? (
-                <div className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-[#2E6B4E]/30 bg-[#FFFFFF] px-3 py-1 text-[11px] font-medium text-[#2E6B4E]">
-                  <Sparkles className="h-3 w-3" strokeWidth={1.7} />
+                <div className="mt-3 inline-flex max-w-full items-center gap-1.5 rounded-full border border-[#2E6B4E]/30 bg-[#FFFFFF] px-3 py-1 text-[11px] font-medium text-[#2E6B4E]">
+                  <Sparkles className="h-3 w-3 shrink-0" strokeWidth={1.7} />
                   <span>
                     Includes Solis pieces — automatic 15% savings when 2+ Solis
                     pieces are in Bag
@@ -295,7 +295,7 @@ export function ShopTheLookSection() {
             </div>
 
             {/* Clickable Side List of Styled Pieces */}
-            <div className="mt-5 space-y-3">
+            <div className="mt-5 min-w-0 space-y-3">
               <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8C7E75]">
                 Styled Pieces in This Edit
               </p>
@@ -305,7 +305,7 @@ export function ShopTheLookSection() {
                 return (
                   <div
                     key={entry.hotspot.id}
-                    className={`flex flex-col gap-3 rounded-[2px] border p-3.5 transition-colors sm:flex-row sm:items-center sm:justify-between ${
+                    className={`flex min-w-0 flex-col gap-3 overflow-hidden rounded-[2px] border p-3.5 transition-colors xl:flex-row xl:items-center xl:justify-between ${
                       isSelected
                         ? 'border-[#C69C4D] bg-[#FFFFFF] ring-1 ring-[#C69C4D]/60'
                         : 'border-[#E5DDD0] bg-[#FFFFFF] hover:border-[#C69C4D]/70'
@@ -318,7 +318,7 @@ export function ShopTheLookSection() {
                           prev === entry.hotspot.id ? null : entry.hotspot.id
                         )
                       }
-                      className="flex flex-1 items-center gap-3.5 text-left"
+                      className="flex min-w-0 flex-1 items-center gap-3 text-left"
                     >
                       <span
                         className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-semibold tabular-nums transition-colors ${
@@ -330,7 +330,7 @@ export function ShopTheLookSection() {
                         {idx + 1}
                       </span>
 
-                      <div className="relative aspect-[4/5] w-14 shrink-0 overflow-hidden rounded-[2px] border border-[#E5DDD0] bg-[#F3ECE1]">
+                      <div className="relative aspect-[4/5] w-12 shrink-0 overflow-hidden rounded-[2px] border border-[#E5DDD0] bg-[#F3ECE1]">
                         <SafeProductImage
                           src={entry.product.images[0]}
                           alt={entry.product.name}
@@ -338,11 +338,11 @@ export function ShopTheLookSection() {
                         />
                       </div>
 
-                      <div className="min-w-0">
-                        <p className="text-[10px] font-medium uppercase tracking-[0.12em] text-[#8C7E75]">
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-[10px] font-medium uppercase tracking-[0.12em] text-[#8C7E75]">
                           {entry.product.category} · {entry.product.purityOptions[0]}
                         </p>
-                        <p className="truncate font-serif text-lg font-medium text-[#1C1514]">
+                        <p className="truncate font-serif text-[17px] font-medium leading-snug text-[#1C1514]">
                           {entry.product.name}
                         </p>
                         <p className="mt-0.5 text-xs font-semibold text-[#1C1514] tabular-nums">
@@ -351,17 +351,17 @@ export function ShopTheLookSection() {
                       </div>
                     </button>
 
-                    <div className="flex shrink-0 items-center gap-2 border-t border-[#E5DDD0] pt-2.5 sm:border-t-0 sm:pt-0">
+                    <div className="flex flex-wrap items-center justify-end gap-2 border-t border-[#E5DDD0] pt-2.5 xl:shrink-0 xl:flex-nowrap xl:border-t-0 xl:pt-0">
                       <Link
                         href={`/product/${entry.product.slug}`}
-                        className="rounded-[2px] border border-[#E5DDD0] bg-[#FAF7F2] px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#1C1514] transition-colors hover:border-[#1C1514]"
+                        className="whitespace-nowrap rounded-[2px] border border-[#E5DDD0] bg-[#FAF7F2] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#1C1514] transition-colors hover:border-[#1C1514]"
                       >
                         View Piece
                       </Link>
                       <button
                         type="button"
                         onClick={() => handleAddSingle(entry.product)}
-                        className="inline-flex items-center gap-1 rounded-[2px] bg-[#1C1514] px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#FAF7F2] transition-colors hover:bg-[#AE8439]"
+                        className="inline-flex items-center gap-1 whitespace-nowrap rounded-[2px] bg-[#1C1514] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#FAF7F2] transition-colors hover:bg-[#AE8439]"
                       >
                         {isSelected ? (
                           <Check className="h-3 w-3 text-[#C69C4D]" />
@@ -377,8 +377,8 @@ export function ShopTheLookSection() {
             </div>
 
             {/* Complete Look Action Bar */}
-            <div className="mt-6 flex flex-col items-start justify-between gap-4 rounded-[2px] border border-[#E5DDD0] bg-[#F3ECE1]/80 p-4 sm:flex-row sm:items-center">
-              <div>
+            <div className="mt-6 flex min-w-0 flex-col items-start justify-between gap-4 rounded-[2px] border border-[#E5DDD0] bg-[#F3ECE1]/80 p-4 sm:flex-row sm:items-center">
+              <div className="min-w-0">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#5C504A]">
                   Complete Ensemble Total ({resolvedItems.length} pieces)
                 </p>
@@ -393,7 +393,7 @@ export function ShopTheLookSection() {
               <button
                 type="button"
                 onClick={handleAddCompleteLook}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-[2px] bg-[#1C1514] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#FAF7F2] transition-colors hover:bg-[#AE8439] sm:w-auto"
+                className="inline-flex w-full shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-[2px] bg-[#1C1514] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#FAF7F2] transition-colors hover:bg-[#AE8439] sm:w-auto"
               >
                 <ShoppingBag className="h-3.5 w-3.5 text-[#C69C4D]" strokeWidth={1.7} />
                 <span>Add Complete Look</span>
