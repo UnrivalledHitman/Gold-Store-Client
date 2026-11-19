@@ -1,7 +1,7 @@
 import type { BoutiqueInfo, PromoCodeConfig } from '@/types/store';
 
 export const FIGMA_PITCH_URL: string =
-  process.env.NEXT_PUBLIC_FIGMA_URL || '';
+  process.env.NEXT_PUBLIC_FIGMA_URL || 'https://www.figma.com/design/4NxZUeHWPPz9bpCQqW4nGW';
 
 export const BOUTIQUES: BoutiqueInfo[] = [
   {
