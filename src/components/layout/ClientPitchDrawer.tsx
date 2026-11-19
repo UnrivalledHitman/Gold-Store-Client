@@ -67,7 +67,7 @@ export function ClientPitchDrawer() {
           type="button"
           onClick={openPitchDrawer}
           aria-label="Open Client Pitch Console"
-          className="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full border border-[#C69C4D]/60 bg-[#1C1514]/95 px-3.5 py-2 text-[11px] font-medium uppercase tracking-[0.14em] text-[#FAF7F2] shadow-lg backdrop-blur-sm transition-colors hover:border-[#C69C4D] hover:bg-[#1C1514]"
+          className="fixed bottom-20 right-4 md:bottom-5 md:right-5 z-40 inline-flex items-center gap-2 rounded-full border border-[#C69C4D]/60 bg-[#1C1514]/95 px-3.5 py-2 text-[11px] font-medium uppercase tracking-[0.14em] text-[#FAF7F2] shadow-lg backdrop-blur-sm transition-colors hover:border-[#C69C4D] hover:bg-[#1C1514]"
         >
           <span
             className="h-1.5 w-1.5 rounded-full bg-[#C69C4D]"
