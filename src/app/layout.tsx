@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Cormorant_Garamond, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { StoreProvider } from '@/context/StoreContext';
+import { StoreShell } from '@/components/layout/StoreShell';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -35,7 +36,9 @@ export default function RootLayout({
       className={`${cormorant.variable} ${plusJakarta.variable}`}
     >
       <body className="min-h-screen bg-[var(--bg-canvas)] text-[var(--text-primary)] font-sans antialiased selection:bg-[#C69C4D]/20 selection:text-[#1C1514]">
-        <StoreProvider>{children}</StoreProvider>
+        <StoreProvider>
+          <StoreShell>{children}</StoreShell>
+        </StoreProvider>
       </body>
     </html>
   );
