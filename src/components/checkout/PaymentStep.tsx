@@ -50,7 +50,7 @@ function SimulatedUpiQrGraphic() {
       viewBox="0 0 120 120"
       className="h-28 w-28 shrink-0 rounded-[2px] border border-[#E5DDD0] bg-[#FFFFFF] p-2 text-[#1C1514]"
       role="img"
-      aria-label="Simulated ZAVERA UPI QR code"
+      aria-label="Simulated PIXTACY UPI QR code"
     >
       {/* Top-left finder */}
       <rect x="6" y="6" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="4" />
@@ -98,7 +98,7 @@ function SimulatedUpiQrGraphic() {
 
 /**
  * Step 2: Interactive payment simulator (UPI QR/ID, masked demo Card, NetBanking),
- * preserved Gift Box & handwritten note controls, ZAVERA10 / FIRST500 promo
+ * preserved Gift Box & handwritten note controls, PIXTACY10 / FIRST500 promo
  * manager, and demo order submission.
  */
 export function PaymentStep({
@@ -148,7 +148,7 @@ export function PaymentStep({
     if (!trimmed) {
       setPromoFeedback({
         ok: false,
-        message: 'Enter ZAVERA10 or FIRST500 to apply a privilege.',
+        message: 'Enter PIXTACY10 or FIRST500 to apply a privilege.',
       });
       return;
     }
@@ -159,7 +159,7 @@ export function PaymentStep({
     }
   };
 
-  const handleQuickApplyPromo = (code: 'ZAVERA10' | 'FIRST500') => {
+  const handleQuickApplyPromo = (code: 'PIXTACY10' | 'FIRST500') => {
     const result = applyPromoCode(code);
     setPromoFeedback(result);
     setPromoInput('');
@@ -317,7 +317,7 @@ export function PaymentStep({
                 <span>Privilege / Promo Code</span>
               </span>
               <span className="text-[10px] text-[#8C7E75]">
-                ZAVERA10 · FIRST500
+                PIXTACY10 · FIRST500
               </span>
             </div>
 
@@ -354,7 +354,7 @@ export function PaymentStep({
                       setPromoInput(e.target.value);
                       if (promoFeedback) setPromoFeedback(null);
                     }}
-                    placeholder="Enter ZAVERA10 or FIRST500"
+                    placeholder="Enter PIXTACY10 or FIRST500"
                     aria-label="Promo code"
                     className="flex-1 rounded-[2px] border border-[#E5DDD0] bg-[#FFFFFF] px-3 py-2 text-xs uppercase text-[#1C1514] placeholder:normal-case placeholder:text-[#8C7E75] focus:border-[#C69C4D] focus:outline-none"
                   />
@@ -369,7 +369,7 @@ export function PaymentStep({
                 {/* Quick-apply walkthrough chips */}
                 <div className="mt-2.5 flex flex-wrap gap-2">
                   {(
-                    Object.keys(PROMO_CODES) as Array<'ZAVERA10' | 'FIRST500'>
+                    Object.keys(PROMO_CODES) as Array<'PIXTACY10' | 'FIRST500'>
                   ).map((codeKey) => (
                     <button
                       key={codeKey}
@@ -380,7 +380,7 @@ export function PaymentStep({
                       <Sparkles className="h-2.5 w-2.5 text-[#C69C4D]" />
                       <span className="tabular-nums">
                         {codeKey} (
-                        {codeKey === 'ZAVERA10' ? '10% Off' : '₹500 Off'})
+                        {codeKey === 'PIXTACY10' ? '10% Off' : '₹500 Off'})
                       </span>
                     </button>
                   ))}

@@ -9,7 +9,7 @@ import { ShopTheLookSection } from '@/components/home/ShopTheLookSection';
 import { AtelierConciergeBanner } from '@/components/home/AtelierConciergeBanner';
 
 /**
- * ZAVERA Luxury Jewellery Storefront Homepage combining editorial storytelling,
+ * PIXTACY Luxury Jewellery Storefront Homepage combining editorial storytelling,
  * live gold-rate merchandising, occasion filtering, and Shop the Look hotspots.
  */
 export default function HomePage() {

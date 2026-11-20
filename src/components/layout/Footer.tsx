@@ -41,7 +41,7 @@ export function Footer() {
               href="/"
               className="inline-block font-serif text-3xl font-medium tracking-[0.35em] text-[#FAF7F2]"
             >
-              ZAVERA
+              PIXTACY
             </Link>
             <p className="mt-2 text-xs uppercase tracking-[0.2em] text-[#C69C4D]">
               Heirloom Craft. Everyday Radiance.
@@ -139,7 +139,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-[#FAF7F2]/10 pt-6 text-xs text-[#FAF7F2]/60 sm:flex-row sm:items-center">
           <p>
-            © 2026 ZAVERA Jewels Pvt. Ltd. · All prices inclusive of 3% GST.
+            © 2026 PIXTACY Jewels Pvt. Ltd. · All prices inclusive of 3% GST.
             Complimentary insured courier pan-India.
           </p>
 

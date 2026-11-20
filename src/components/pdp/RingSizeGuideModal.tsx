@@ -89,7 +89,7 @@ export function RingSizeGuideModal({
               <div>
                 <p className="flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#AE8439]">
                   <Ruler className="h-3.5 w-3.5" strokeWidth={1.7} />
-                  <span>ZAVERA Salon Sizing Standard</span>
+                  <span>PIXTACY Salon Sizing Standard</span>
                 </p>
                 <h2 className="mt-1 font-serif text-2xl font-medium text-[#1C1514]">
                   Indian Ring Size Guide (10–20)

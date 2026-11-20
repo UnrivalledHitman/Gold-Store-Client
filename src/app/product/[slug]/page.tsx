@@ -28,12 +28,12 @@ export async function generateMetadata({
 
   if (!product) {
     return {
-      title: 'Piece Not Found — ZAVERA',
+      title: 'Piece Not Found — PIXTACY',
     };
   }
 
   return {
-    title: `${product.name} — ${product.tier} | ZAVERA`,
+    title: `${product.name} — ${product.tier} | PIXTACY`,
     description: product.description,
   };
 }

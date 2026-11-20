@@ -9,7 +9,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 export function HeroBanner() {
   return (
     <section
-      aria-label="ZAVERA Editorial Campaign"
+      aria-label="PIXTACY Editorial Campaign"
       className="relative w-full overflow-hidden border-b border-[#E5DDD0] bg-[#F3ECE1]"
     >
       {/* Art-directed Photography Layer */}
@@ -17,7 +17,7 @@ export function HeroBanner() {
         {/* Desktop wide campaign image (1376x768) */}
         <img
           src="/images/hero-desktop.png"
-          alt="ZAVERA 22KT heritage gold temple choker and lab-grown diamond solitaire pendant on warm linen"
+          alt="PIXTACY 22KT heritage gold temple choker and lab-grown diamond solitaire pendant on warm linen"
           loading="eager"
           decoding="sync"
           className="hidden h-full w-full object-cover object-[72%_center] md:block"
@@ -26,7 +26,7 @@ export function HeroBanner() {
         {/* Mobile portrait campaign image (896x1200) */}
         <img
           src="/images/hero-mobile.png"
-          alt="ZAVERA sculptural 22KT gold choker, diamond solitaire stud, and fine gold bangle on travertine stone"
+          alt="PIXTACY sculptural 22KT gold choker, diamond solitaire stud, and fine gold bangle on travertine stone"
           loading="eager"
           decoding="sync"
           className="h-full w-full object-cover object-center md:hidden"
@@ -51,7 +51,7 @@ export function HeroBanner() {
           <div className="max-w-xl">
             <p className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#E5C77A] md:text-[#AE8439]">
               <Sparkles className="h-3.5 w-3.5" strokeWidth={1.6} aria-hidden="true" />
-              <span>ZAVERA House of Fine &amp; Demi-Fine</span>
+              <span>PIXTACY House of Fine &amp; Demi-Fine</span>
             </p>
 
             <h1 className="mt-3 font-serif text-[42px] font-normal leading-[1.04] tracking-tight text-[#FAF7F2] sm:text-5xl md:text-[58px] lg:text-[64px] md:text-[#1C1514]">

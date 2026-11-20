@@ -56,7 +56,7 @@ export function PriceBreakupAccordion({
             </span>
           </div>
           <p className="mt-0.5 text-[11px] text-[#8C7E75]">
-            Live itemised valuation synced to ZAVERA bullion rate
+            Live itemised valuation synced to PIXTACY bullion rate
           </p>
         </div>
 

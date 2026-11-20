@@ -5,7 +5,7 @@ export interface CatalogSkeletonProps {
 }
 
 /**
- * Hydration-safe Suspense fallback skeleton matching the ZAVERA PLP layout.
+ * Hydration-safe Suspense fallback skeleton matching the PIXTACY PLP layout.
  */
 export function CatalogSkeleton({
   hasCollectionBanner = false,

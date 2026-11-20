@@ -8,7 +8,7 @@ import { SafeProductImage } from '@/components/ui/SafeProductImage';
 
 /**
  * Section 8: Atelier Heritage & Video Concierge Split Banner highlighting
- * ZAVERA's 4 Indian salons and 1-on-1 live stylist appointments.
+ * PIXTACY's 4 Indian salons and 1-on-1 live stylist appointments.
  */
 export function AtelierConciergeBanner() {
   const { openBookingModal } = useStore();
@@ -44,14 +44,14 @@ export function AtelierConciergeBanner() {
               <div className="relative aspect-[4/5] overflow-hidden rounded-[2px] border border-[#FAF7F2]/15 bg-[#F3ECE1]">
                 <SafeProductImage
                   src="/images/collections/aarohi.png"
-                  alt="ZAVERA Heritage 22KT Salon Showcase"
+                  alt="PIXTACY Heritage 22KT Salon Showcase"
                   categoryLabel="Aarohi Atelier"
                 />
               </div>
               <div className="relative aspect-[4/5] overflow-hidden rounded-[2px] border border-[#FAF7F2]/15 bg-[#F3ECE1]">
                 <SafeProductImage
                   src="/images/collections/solis.png"
-                  alt="ZAVERA Waterproof Demi-Fine Styling Bar"
+                  alt="PIXTACY Waterproof Demi-Fine Styling Bar"
                   categoryLabel="Solis Bar"
                 />
               </div>

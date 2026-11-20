@@ -37,7 +37,7 @@ export const INITIAL_SHIPPING_ADDRESS: ShippingAddress = {
 export const DEMO_SHIPPING_ADDRESS: ShippingAddress = {
   fullName: 'Ananya Deshmukh',
   phone: '+91 98204 51916',
-  email: 'ananya.deshmukh@zavera-client.in',
+  email: 'ananya.deshmukh@pixtacy-client.in',
   addressLine1: 'Suite 402, Heritage House, 18 Rope Walk Lane',
   addressLine2: 'Kala Ghoda, Fort',
   city: 'Mumbai',

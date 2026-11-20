@@ -36,7 +36,7 @@ export interface CatalogClientProps {
 }
 
 /**
- * Interactive URL-synced ZAVERA Product Listing Page (PLP) client view.
+ * Interactive URL-synced PIXTACY Product Listing Page (PLP) client view.
  * Must be rendered inside a <Suspense> boundary by parent route pages.
  */
 export function CatalogClient({ lockedCollection }: CatalogClientProps) {

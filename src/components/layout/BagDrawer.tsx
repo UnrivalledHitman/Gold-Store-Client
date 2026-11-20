@@ -20,7 +20,7 @@ import { SafeProductImage } from '@/components/ui/SafeProductImage';
 
 /**
  * Slide-over Shopping Bag drawer with quantity steppers, live Solis 2+ bundle
- * tracker, Luxury Gift Box & handwritten note, ZAVERA10/FIRST500 promo codes,
+ * tracker, Luxury Gift Box & handwritten note, PIXTACY10/FIRST500 promo codes,
  * and itemized totals synced to live gold rates.
  */
 export function BagDrawer() {
@@ -62,7 +62,7 @@ export function BagDrawer() {
     if (!trimmed) {
       setPromoFeedback({
         ok: false,
-        message: 'Enter ZAVERA10 or FIRST500 to apply a privilege.',
+        message: 'Enter PIXTACY10 or FIRST500 to apply a privilege.',
       });
       return;
     }
@@ -145,7 +145,7 @@ export function BagDrawer() {
             <ShoppingBag className="h-5 w-5" strokeWidth={1.5} />
           </div>
           <h3 className="mt-4 font-serif text-2xl font-medium text-[#1C1514]">
-            Your ZAVERA Bag is Empty
+            Your PIXTACY Bag is Empty
           </h3>
           <p className="mt-2 max-w-xs text-sm leading-relaxed text-[#5C504A]">
             Discover heirloom 22KT gold, IGI-certified lab solitaires, or stack
@@ -390,7 +390,7 @@ export function BagDrawer() {
                 <span>Privilege / Promo Code</span>
               </span>
               <span className="text-[10px] text-[#8C7E75]">
-                ZAVERA10 · FIRST500
+                PIXTACY10 · FIRST500
               </span>
             </div>
 
@@ -426,7 +426,7 @@ export function BagDrawer() {
                     setPromoInput(e.target.value);
                     if (promoFeedback) setPromoFeedback(null);
                   }}
-                  placeholder="Enter code (e.g. ZAVERA10)"
+                  placeholder="Enter code (e.g. PIXTACY10)"
                   aria-label="Promo code"
                   className="flex-1 rounded-[2px] border border-[#E5DDD0] bg-[#FAF7F2] px-3 py-2 text-xs uppercase text-[#1C1514] placeholder:normal-case placeholder:text-[#8C7E75] focus:border-[#C69C4D] focus:outline-none"
                 />

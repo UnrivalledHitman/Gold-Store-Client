@@ -61,7 +61,7 @@ export const COLLECTIONS: CollectionInfo[] = [
 export const PRODUCTS: Product[] = [
   // ── AAROHI (Heritage 22KT) ──────────────────────────────────────────────
   {
-    id: 'ZAV-AAR-01',
+    id: 'PIX-AAR-01',
     slug: 'aarohi-temple-nakshi-choker',
     name: 'Aarohi Temple Nakshi Choker',
     subtitle: 'Sculpted 22KT Heritage Bridal Collar',
@@ -80,15 +80,15 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 5,
     images: ['/images/products/zav-aar-01.png'],
-    completeTheLookIds: ['ZAV-AAR-02', 'ZAV-AAR-03', 'ZAV-AAR-05'],
+    completeTheLookIds: ['PIX-AAR-02', 'PIX-AAR-03', 'PIX-AAR-05'],
     description:
       'Chiseled over ninety atelier hours using centuries-old nakshi repoussé work, this contoured 22KT collar drapes along the collarbone with quiet regal poise and an adjustable silk dori.',
     careInstructions:
-      'Store flat in the signature suede-lined ZAVERA vault box away from perfume sprays. Wipe gently with the untreated chamois cloth after wear.',
+      'Store flat in the signature suede-lined PIXTACY vault box away from perfume sprays. Wipe gently with the untreated chamois cloth after wear.',
     isBestseller: true,
   },
   {
-    id: 'ZAV-AAR-02',
+    id: 'PIX-AAR-02',
     slug: 'mayuri-filigree-jhumka-earrings',
     name: 'Mayuri Filigree Jhumka Earrings',
     subtitle: 'Artisanal 22KT Rava Granulation Drops',
@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 3,
     images: ['/images/products/zav-aar-02.png'],
-    completeTheLookIds: ['ZAV-AAR-01', 'ZAV-AAR-03', 'ZAV-AAR-04'],
+    completeTheLookIds: ['PIX-AAR-01', 'PIX-AAR-03', 'PIX-AAR-04'],
     description:
       'Balanced for effortless weight distribution on the ear, the Mayuri Jhumkas showcase lacy filigree domes crowned with lotus motifs and softly chiming pearl clusters.',
     careInstructions:
@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-AAR-03',
+    id: 'PIX-AAR-03',
     slug: 'rani-kundan-kada-bangle-pair',
     name: 'Rani Kundan Kada Bangle Pair',
     subtitle: '22KT Uncut Polki & Meenakari Kadas',
@@ -134,14 +134,14 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 5,
     images: ['/images/products/zav-aar-03.png'],
-    completeTheLookIds: ['ZAV-AAR-01', 'ZAV-AAR-02', 'ZAV-AAR-05'],
+    completeTheLookIds: ['PIX-AAR-01', 'PIX-AAR-02', 'PIX-AAR-05'],
     description:
       'Hinged with discreet screw clasps for a custom wrist fit, this matched pair unites glowing uncut polki stones on the exterior with botanical garnet-and-ivory meenakari inside.',
     careInstructions:
       'Avoid ultrasonic cleaners on Kundan and Meenakari settings. Clean strictly with a dry microfibre cloth.',
   },
   {
-    id: 'ZAV-AAR-04',
+    id: 'PIX-AAR-04',
     slug: 'suhani-contemporary-gold-mangalsutra',
     name: 'Suhani Contemporary Gold Mangalsutra',
     subtitle: 'Modern 22KT Filigree Vati & Onyx Chain',
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 3,
     images: ['/images/products/zav-aar-04.png'],
-    completeTheLookIds: ['ZAV-AAR-05', 'ZAV-SAA-02', 'ZAV-SAA-03'],
+    completeTheLookIds: ['PIX-AAR-05', 'PIX-SAA-02', 'PIX-SAA-03'],
     description:
       'Designed for the modern bride who layers her mangalsutra beside fine office chains. Clean geometric gold links alternate with micro-faceted black onyx beads and a minimalist motif.',
     careInstructions:
@@ -168,7 +168,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-AAR-05',
+    id: 'PIX-AAR-05',
     slug: 'jaipur-paisley-sovereign-ring',
     name: 'Jaipur Paisley Sovereign Ring',
     subtitle: '22KT Hand-Embossed Signet Statement Ring',
@@ -188,16 +188,16 @@ export const PRODUCTS: Product[] = [
     inStock: false,
     dispatchDays: 7,
     images: ['/images/products/zav-aar-05.png'],
-    completeTheLookIds: ['ZAV-AAR-01', 'ZAV-AAR-03'],
+    completeTheLookIds: ['PIX-AAR-01', 'PIX-AAR-03'],
     description:
       'A substantial tapered gold band crowned with an heirloom paisley crest in satin-burnished 22KT gold—crafted to wear solo on the index or ring finger.',
     careInstructions:
-      'Made to order in your exact ring size. Complimentary lifetime re-polishing at any ZAVERA salon.',
+      'Made to order in your exact ring size. Complimentary lifetime re-polishing at any PIXTACY salon.',
   },
 
   // ── NOOR (Lab-Grown Diamonds) ───────────────────────────────────────────
   {
-    id: 'ZAV-NOO-01',
+    id: 'PIX-NOO-01',
     slug: 'noor-oval-halo-solitaire-ring',
     name: 'Noor Oval Halo Solitaire Ring',
     subtitle: '1.20 ct EF-VVS Lab-Grown Diamond Solitaire',
@@ -217,7 +217,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 4,
     images: ['/images/products/zav-noo-01.png'],
-    completeTheLookIds: ['ZAV-NOO-05', 'ZAV-NOO-02', 'ZAV-NOO-03'],
+    completeTheLookIds: ['PIX-NOO-05', 'PIX-NOO-02', 'PIX-NOO-03'],
     description:
       'An elongated 1.20-carat oval solitaire suspended inside a whisper-thin diamond halo and raised cathedral gallery so an eternity band sits flush beneath.',
     careInstructions:
@@ -225,7 +225,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-NOO-02',
+    id: 'PIX-NOO-02',
     slug: 'lumiere-graduated-tennis-bracelet',
     name: 'Lumiere Graduated Tennis Bracelet',
     subtitle: '3.50 ct EF-VVS Articulated Diamond Bracelet',
@@ -244,7 +244,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 5,
     images: ['/images/products/zav-noo-02.png'],
-    completeTheLookIds: ['ZAV-NOO-01', 'ZAV-NOO-03', 'ZAV-NOO-04'],
+    completeTheLookIds: ['PIX-NOO-01', 'PIX-NOO-03', 'PIX-NOO-04'],
     description:
       'Sixty-four hand-matched round brilliants graduate subtly toward the center in four-prong links engineered never to flip on the wrist, secured by a double-safety box clasp.',
     careInstructions:
@@ -252,7 +252,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-NOO-03',
+    id: 'PIX-NOO-03',
     slug: 'apsara-pear-drop-diamond-studs',
     name: 'Apsara Pear-Drop Diamond Studs',
     subtitle: '0.90 ct EF-VVS Floating Pear Solitaire Studs',
@@ -271,14 +271,14 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 2,
     images: ['/images/products/zav-noo-03.png'],
-    completeTheLookIds: ['ZAV-NOO-04', 'ZAV-NOO-02'],
+    completeTheLookIds: ['PIX-NOO-04', 'PIX-NOO-02'],
     description:
       'Precision-matched pear-cut diamonds set in minimalist three-prong baskets that allow full light return from every angle, complete with secure screw-lock ear backs.',
     careInstructions:
       'Put earrings on after hairspray and fragrance; clean periodically with a soft brush and warm soapy water.',
   },
   {
-    id: 'ZAV-NOO-04',
+    id: 'PIX-NOO-04',
     slug: 'solstice-minimalist-solitaire-pendant',
     name: 'Solstice Minimalist Solitaire Pendant',
     subtitle: '0.50 ct EF-VVS Floating Solitaire on Fine Chain',
@@ -297,7 +297,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 2,
     images: ['/images/products/zav-noo-04.png'],
-    completeTheLookIds: ['ZAV-NOO-03', 'ZAV-SAA-01'],
+    completeTheLookIds: ['PIX-NOO-03', 'PIX-SAA-01'],
     description:
       'An essential half-carat solitaire threaded directly along an adjustable 16–18 inch diamond-cut cable chain so the stone rests effortlessly at the hollow of the throat.',
     careInstructions:
@@ -305,7 +305,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-NOO-05',
+    id: 'PIX-NOO-05',
     slug: 'celeste-full-eternity-diamond-band',
     name: 'Celeste Full-Eternity Diamond Band',
     subtitle: '1.10 ct EF-VVS 360° Diamond Stack Band',
@@ -325,7 +325,7 @@ export const PRODUCTS: Product[] = [
     inStock: false,
     dispatchDays: 6,
     images: ['/images/products/zav-noo-05.png'],
-    completeTheLookIds: ['ZAV-NOO-01', 'ZAV-SAA-04'],
+    completeTheLookIds: ['PIX-NOO-01', 'PIX-SAA-04'],
     description:
       'An unbroken ribbon of scintillating round diamonds set low in shared-prong architecture—crafted to stack beside the Noor Solitaire or shine solo as a modern wedding band.',
     careInstructions:
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
 
   // ── SAANJH (Everyday 18KT) ──────────────────────────────────────────────
   {
-    id: 'ZAV-SAA-01',
+    id: 'PIX-SAA-01',
     slug: 'saanjh-paperclip-everyday-chain',
     name: 'Saanjh Paperclip Everyday Chain',
     subtitle: '18KT Italian-Link Layering Necklace',
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 2,
     images: ['/images/products/zav-saa-01.png'],
-    completeTheLookIds: ['ZAV-NOO-04', 'ZAV-SAA-02', 'ZAV-SAA-03'],
+    completeTheLookIds: ['PIX-NOO-04', 'PIX-SAA-02', 'PIX-SAA-03'],
     description:
       'Luminous elongated links finished by Italian chainmakers for fluid drape and high specular warmth. Wear solo at 18 inches or clasp a charm directly onto any link.',
     careInstructions:
@@ -361,7 +361,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-SAA-02',
+    id: 'PIX-SAA-02',
     slug: 'kiran-sculpted-huggie-hoop-trio',
     name: 'Kiran Sculpted Huggie Hoop Trio',
     subtitle: 'Matched Set of Three 18KT Ear Stack Hoops',
@@ -380,7 +380,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 1,
     images: ['/images/products/zav-saa-02.png'],
-    completeTheLookIds: ['ZAV-SAA-01', 'ZAV-SAA-04', 'ZAV-SOL-02'],
+    completeTheLookIds: ['PIX-SAA-01', 'PIX-SAA-04', 'PIX-SOL-02'],
     description:
       'An instant curated ear stack in solid 18KT gold. Three graduated hinged huggies snap closed with satisfying precision and zero sharp posts for sleep-in comfort.',
     careInstructions:
@@ -388,7 +388,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-SAA-03',
+    id: 'PIX-SAA-03',
     slug: 'tara-delicate-evil-eye-bracelet',
     name: 'Tara Delicate Evil-Eye Bracelet',
     subtitle: '18KT Gold Chain with Sapphire Enamel Charm',
@@ -407,14 +407,14 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 1,
     images: ['/images/products/zav-saa-03.png'],
-    completeTheLookIds: ['ZAV-SAA-01', 'ZAV-SAA-04'],
+    completeTheLookIds: ['PIX-SAA-01', 'PIX-SAA-04'],
     description:
       'A featherlight protective talisman featuring rich cobalt vitreous enamel framed in solid 18KT gold on a triple-adjustable fine cable chain.',
     careInstructions:
       'Wipe gently after lotion or sunscreen application to keep enamel crisp and glossy.',
   },
   {
-    id: 'ZAV-SAA-04',
+    id: 'PIX-SAA-04',
     slug: 'veda-stacking-chevron-ring',
     name: 'Veda Stacking Chevron Ring',
     subtitle: 'Architectural 18KT Gold Knife-Edge V-Ring',
@@ -434,7 +434,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 2,
     images: ['/images/products/zav-saa-04.png'],
-    completeTheLookIds: ['ZAV-NOO-01', 'ZAV-SAA-02', 'ZAV-SOL-01'],
+    completeTheLookIds: ['PIX-NOO-01', 'PIX-SAA-02', 'PIX-SOL-01'],
     description:
       'Crisp geometric angles elongate the finger whether worn alone as a whisper-thin statement or nested against a solitaire ring.',
     careInstructions:
@@ -443,7 +443,7 @@ export const PRODUCTS: Product[] = [
 
   // ── SOLIS (Demi-Fine Waterproof) ────────────────────────────────────────
   {
-    id: 'ZAV-SOL-01',
+    id: 'PIX-SOL-01',
     slug: 'solis-chunky-dome-croissant-ring',
     name: 'Solis Chunky Dome Croissant Ring',
     subtitle: 'Waterproof 18K Gold Vermeil Sculptural Dome',
@@ -464,7 +464,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 1,
     images: ['/images/products/zav-sol-01.png'],
-    completeTheLookIds: ['ZAV-SOL-02', 'ZAV-SOL-03', 'ZAV-SOL-04'],
+    completeTheLookIds: ['PIX-SOL-02', 'PIX-SOL-03', 'PIX-SOL-04'],
     description:
       'Plump fluted ridges catch afternoon light with architectural drama while remaining hollowed inside for weightless, all-day waterproof wear.',
     careInstructions:
@@ -472,7 +472,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-SOL-02',
+    id: 'PIX-SOL-02',
     slug: 'riviera-waterproof-herringbone-snake-chain',
     name: 'Riviera Waterproof Herringbone Snake Chain',
     subtitle: 'Liquid-Gold Flat Herringbone in 18K Vermeil',
@@ -492,7 +492,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 1,
     images: ['/images/products/zav-sol-02.png'],
-    completeTheLookIds: ['ZAV-SOL-01', 'ZAV-SOL-03', 'ZAV-SOL-04'],
+    completeTheLookIds: ['PIX-SOL-01', 'PIX-SOL-03', 'PIX-SOL-04'],
     description:
       'Pours across the collarbone like molten silk. Engineered with a high-flex flat herringbone core and waterproof anti-tarnish seal for humid monsoon and beach days alike.',
     careInstructions:
@@ -500,7 +500,7 @@ export const PRODUCTS: Product[] = [
     isBestseller: true,
   },
   {
-    id: 'ZAV-SOL-03',
+    id: 'PIX-SOL-03',
     slug: 'cannes-sculptural-molten-cuff',
     name: 'Cannes Sculptural Molten Cuff',
     subtitle: 'Organic Hammered Open Cuff Bracelet',
@@ -520,14 +520,14 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 2,
     images: ['/images/products/zav-sol-03.png'],
-    completeTheLookIds: ['ZAV-SOL-01', 'ZAV-SOL-02', 'ZAV-SOL-04'],
+    completeTheLookIds: ['PIX-SOL-01', 'PIX-SOL-02', 'PIX-SOL-04'],
     description:
       'Undulating organic contours evoke windswept dunes in high-polish vermeil. Gently open-backed to slip comfortably over bare wrists or linen cuffs.',
     careInstructions:
       'Sweatproof, shower-safe, and nickel-free. Wipe dry with a soft lint-free cloth.',
   },
   {
-    id: 'ZAV-SOL-04',
+    id: 'PIX-SOL-04',
     slug: 'bora-baroque-pearl-drop-hoops',
     name: 'Bora Baroque Pearl-Drop Hoops',
     subtitle: 'Convertible 18K Vermeil & Freshwater Pearl Hoops',
@@ -547,7 +547,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     dispatchDays: 1,
     images: ['/images/products/zav-sol-04.png'],
-    completeTheLookIds: ['ZAV-SOL-02', 'ZAV-SOL-03', 'ZAV-SOL-01'],
+    completeTheLookIds: ['PIX-SOL-02', 'PIX-SOL-03', 'PIX-SOL-01'],
     description:
       'Two silhouettes in one: wear the sculptural vermeil huggie hoops sleek for work, or slide on the one-of-a-kind luminous baroque pearl charms for coastal evenings.',
     careInstructions:
@@ -568,21 +568,21 @@ export const LOOKBOOK_SCENES: LookbookScene[] = [
     hotspots: [
       {
         id: 'hs-aar-02',
-        productId: 'ZAV-AAR-02',
+        productId: 'PIX-AAR-02',
         xPct: 62,
         yPct: 14,
         label: 'Mayuri Filigree Jhumkas',
       },
       {
         id: 'hs-aar-01',
-        productId: 'ZAV-AAR-01',
+        productId: 'PIX-AAR-01',
         xPct: 52,
         yPct: 31,
         label: 'Aarohi Temple Nakshi Choker',
       },
       {
         id: 'hs-aar-03',
-        productId: 'ZAV-AAR-03',
+        productId: 'PIX-AAR-03',
         xPct: 71,
         yPct: 83,
         label: 'Rani Kundan Kada Pair',
@@ -600,28 +600,28 @@ export const LOOKBOOK_SCENES: LookbookScene[] = [
     hotspots: [
       {
         id: 'hs-saa-02',
-        productId: 'ZAV-SAA-02',
+        productId: 'PIX-SAA-02',
         xPct: 30,
         yPct: 11,
         label: 'Kiran Sculpted Huggie Trio',
       },
       {
         id: 'hs-sol-02',
-        productId: 'ZAV-SOL-02',
+        productId: 'PIX-SOL-02',
         xPct: 44,
         yPct: 45,
         label: 'Riviera Herringbone Chain',
       },
       {
         id: 'hs-sol-01',
-        productId: 'ZAV-SOL-01',
+        productId: 'PIX-SOL-01',
         xPct: 79,
         yPct: 44,
         label: 'Solis Dome Croissant Ring',
       },
       {
         id: 'hs-sol-03',
-        productId: 'ZAV-SOL-03',
+        productId: 'PIX-SOL-03',
         xPct: 53,
         yPct: 76,
         label: 'Cannes Molten Cuff',

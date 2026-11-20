@@ -148,7 +148,7 @@ export interface BoutiqueInfo {
 }
 
 export interface PromoCodeConfig {
-  code: 'ZAVERA10' | 'FIRST500';
+  code: 'PIXTACY10' | 'FIRST500';
   label: string;
   description: string;
   type: 'percentage' | 'flat';
@@ -219,5 +219,5 @@ export interface UxBenchmark {
   platform: 'web' | 'ios';
   mobbinUrl: string;
   patternSummary: string;
-  zaveraApplication: string;
+  pixtacyApplication: string;
 }

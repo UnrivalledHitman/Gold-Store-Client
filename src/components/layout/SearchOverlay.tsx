@@ -98,7 +98,7 @@ function searchProducts(
 }
 
 /**
- * Instant fuzzy search overlay across all 18 ZAVERA SKUs with trending pills,
+ * Instant fuzzy search overlay across all 18 PIXTACY SKUs with trending pills,
  * live gold-rate pricing, Quick Add, and PDP navigation.
  */
 export function SearchOverlay() {
@@ -144,7 +144,7 @@ export function SearchOverlay() {
           className="fixed inset-0 z-50 flex flex-col"
           role="dialog"
           aria-modal="true"
-          aria-label="Search ZAVERA Jewellery"
+          aria-label="Search PIXTACY Jewellery"
         >
           <motion.div
             initial={{ opacity: 0 }}
@@ -175,9 +175,9 @@ export function SearchOverlay() {
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search by piece, SKU (ZAV-AAR-01), metal, occasion, or 'Under ₹15,000'..."
+                placeholder="Search by piece, SKU (PIX-AAR-01), metal, occasion, or 'Under ₹15,000'..."
                 className="w-full bg-transparent text-sm text-[#1C1514] placeholder:text-[#8C7E75] focus:outline-none sm:text-base"
-                aria-label="Search ZAVERA products"
+                aria-label="Search PIXTACY products"
               />
               {query ? (
                 <button

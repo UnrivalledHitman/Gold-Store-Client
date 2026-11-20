@@ -18,7 +18,7 @@ import { useStore } from '@/context/StoreContext';
 const TIME_SLOTS = ['11:30 AM', '1:30 PM', '4:00 PM', '6:30 PM'] as const;
 
 const COLLECTION_OPTIONS: { value: CollectionSlug | 'all'; label: string }[] = [
-  { value: 'all', label: 'All ZAVERA Collections' },
+  { value: 'all', label: 'All PIXTACY Collections' },
   { value: 'aarohi', label: 'Aarohi · 22KT Heritage & Bridal' },
   { value: 'noor', label: 'Noor · IGI Lab-Grown Diamonds' },
   { value: 'saanjh', label: 'Saanjh · Everyday 18KT Fine Gold' },
@@ -158,7 +158,7 @@ export function BoutiqueBookingModal() {
             <header className="flex items-start justify-between border-b border-[#E5DDD0] bg-[#FFFFFF] px-5 py-4 sm:px-6">
               <div>
                 <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#C69C4D]">
-                  ZAVERA Private Concierge
+                  PIXTACY Private Concierge
                 </p>
                 <h2 className="mt-0.5 font-serif text-2xl font-medium text-[#1C1514]">
                   {confirmedBooking

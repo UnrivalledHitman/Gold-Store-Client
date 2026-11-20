@@ -19,7 +19,7 @@ export interface SlideOverDrawerProps {
 
 /**
  * Shared slide-over drawer primitive handling ESC dismissal, body scroll lock,
- * backdrop click, and ZAVERA's crisp 0-2px architectural border system.
+ * backdrop click, and PIXTACY's crisp 0-2px architectural border system.
  */
 export function SlideOverDrawer({
   open,

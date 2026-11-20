@@ -20,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'ZAVERA — Heirloom Craft. Everyday Radiance.',
+  title: 'PIXTACY — Heirloom Craft. Everyday Radiance.',
   description:
     'Contemporary Indian luxury jewellery house across 22KT Heritage Gold, IGI Certified Lab-Grown Diamonds, Everyday 18KT Fine Gold, and Waterproof Demi-Fine Vermeil.',
 };

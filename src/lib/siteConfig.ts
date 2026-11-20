@@ -6,7 +6,7 @@ export const FIGMA_PITCH_URL: string =
 export const BOUTIQUES: BoutiqueInfo[] = [
   {
     id: 'mumbai-kala-ghoda',
-    name: 'ZAVERA Kala Ghoda Flagship',
+    name: 'PIXTACY Kala Ghoda Flagship',
     city: 'Mumbai',
     shortLabel: 'Mumbai Flagship',
     address: '14 Rope Walk Lane, Kala Ghoda, Fort, Mumbai 400001',
@@ -21,7 +21,7 @@ export const BOUTIQUES: BoutiqueInfo[] = [
   },
   {
     id: 'delhi-mehrauli',
-    name: 'ZAVERA Mehrauli Atelier',
+    name: 'PIXTACY Mehrauli Atelier',
     city: 'New Delhi',
     shortLabel: 'Delhi Mehrauli',
     address: 'Ambawatta One, Seth Sarai, Mehrauli, New Delhi 110030',
@@ -36,7 +36,7 @@ export const BOUTIQUES: BoutiqueInfo[] = [
   },
   {
     id: 'bengaluru-indiranagar',
-    name: 'ZAVERA Indiranagar Salon',
+    name: 'PIXTACY Indiranagar Salon',
     city: 'Bengaluru',
     shortLabel: 'Bengaluru Indiranagar',
     address: '748, 12th Main Road, HAL 2nd Stage, Indiranagar, Bengaluru 560038',
@@ -51,7 +51,7 @@ export const BOUTIQUES: BoutiqueInfo[] = [
   },
   {
     id: 'kolkata-park-street',
-    name: 'ZAVERA Park Street Maison',
+    name: 'PIXTACY Park Street Maison',
     city: 'Kolkata',
     shortLabel: 'Kolkata Park Street',
     address: '24B Park Street, Celica Park, Kolkata 700016',
@@ -66,9 +66,9 @@ export const BOUTIQUES: BoutiqueInfo[] = [
   },
 ];
 
-export const PROMO_CODES: Record<'ZAVERA10' | 'FIRST500', PromoCodeConfig> = {
-  ZAVERA10: {
-    code: 'ZAVERA10',
+export const PROMO_CODES: Record<'PIXTACY10' | 'FIRST500', PromoCodeConfig> = {
+  PIXTACY10: {
+    code: 'PIXTACY10',
     label: '10% Client Pitch Privilege',
     description: '10% off your order total (applied after bundle savings)',
     type: 'percentage',
@@ -77,7 +77,7 @@ export const PROMO_CODES: Record<'ZAVERA10' | 'FIRST500', PromoCodeConfig> = {
   FIRST500: {
     code: 'FIRST500',
     label: '₹500 First Purchase Privilege',
-    description: 'Flat ₹500 instant privilege on your first ZAVERA order',
+    description: 'Flat ₹500 instant privilege on your first PIXTACY order',
     type: 'flat',
     value: 500,
   },

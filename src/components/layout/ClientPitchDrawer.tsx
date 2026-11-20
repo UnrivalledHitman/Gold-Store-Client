@@ -310,9 +310,9 @@ export function ClientPitchDrawer() {
                   </p>
                   <p className="mt-1.5 text-[11px] leading-relaxed text-[#1C1514]">
                     <span className="font-semibold text-[#AE8439]">
-                      ZAVERA:{' '}
+                      PIXTACY:{' '}
                     </span>
-                    {item.zaveraApplication}
+                    {item.pixtacyApplication}
                   </p>
                 </div>
               ))}

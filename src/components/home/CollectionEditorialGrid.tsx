@@ -17,7 +17,7 @@ export function CollectionEditorialGrid() {
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div className="max-w-xl">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#AE8439]">
-              The Four ZAVERA Capsules
+              The Four PIXTACY Capsules
             </p>
             <h2
               id="collections-grid-heading"

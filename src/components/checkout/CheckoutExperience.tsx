@@ -22,7 +22,7 @@ import {
 
 /**
  * Interactive 3-step client demo checkout flow backed by StoreContext
- * (live gold rates, Solis 2+ bundle savings, Gift Box/Note, ZAVERA10/FIRST500,
+ * (live gold rates, Solis 2+ bundle savings, Gift Box/Note, PIXTACY10/FIRST500,
  * and localStorage DemoOrder persistence).
  */
 export function CheckoutExperience() {

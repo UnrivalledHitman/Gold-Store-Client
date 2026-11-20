@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rough Quotation &amp; Proposal — Gold Jewellery E-Commerce &amp; Digital Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --bg-canvas: #FAF7F2;
+      --bg-surface: #F3ECE1;
+      --bg-elevated: #FFFFFF;
+      --bg-dark: #1C1514;
+      --text-primary: #1C1514;
+      --text-secondary: #5C504A;
+      --text-muted: #8C7E75;
+      --accent-gold: #C69C4D;
+      --accent-gold-hover: #AE8439;
+      --accent-garnet: #7A1E2C;
+      --border-hairline: #E5DDD0;
+      --status-success: #2E6B4E;
+      --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-canvas);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 13.5px;
+      line-height: 1.58;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Sticky Print Toolbar (Screen Only) */
+    .action-bar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background-color: rgba(28, 21, 20, 0.96);
+      color: #FAF7F2;
+      border-bottom: 1px solid rgba(198, 156, 77, 0.45);
+      padding: 10px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      backdrop-filter: blur(8px);
+    }
+
+    .action-bar-note {
+      font-size: 12px;
+      color: #E5DDD0;
+    }
+
+    .action-bar-note code {
+      background: rgba(198, 156, 77, 0.16);
+      color: #F3ECE1;
+      padding: 1px 6px;
+      border-radius: 2px;
+      font-size: 11px;
+    }
+
+    .print-btn {
+      appearance: none;
+      border: 1px solid var(--accent-gold);
+      background-color: var(--accent-gold);
+      color: #1C1514;
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 9px 18px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .print-btn:hover {
+      background-color: var(--accent-gold-hover);
+      color: #FAF7F2;
+    }
+
+    /* Page Container */
+    .document-wrap {
+      max-width: 980px;
+      margin: 28px auto 56px;
+      padding: 0 20px;
+    }
+
+    .cover-card {
+      background-color: var(--bg-dark);
+      color: #FAF7F2;
+      border: 1px solid rgba(198, 156, 77, 0.45);
+      border-radius: 2px;
+      padding: 36px 40px 32px;
+      margin-bottom: 24px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .eyebrow {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      margin: 0 0 8px;
+    }
+
+    h1.doc-title {
+      font-family: var(--font-serif);
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 1.12;
+      margin: 0 0 10px;
+      color: #FAF7F2;
+    }
+
+    .doc-subtitle {
+      font-size: 14px;
+      color: #E5DDD0;
+      margin: 0 0 24px;
+      max-width: 720px;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .kpi-box {
+      background: rgba(250, 247, 242, 0.05);
+      border: 1px solid rgba(198, 156, 77, 0.35);
+      border-radius: 2px;
+      padding: 12px 14px;
+    }
+
+    .kpi-label {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #C69C4D;
+      margin: 0 0 4px;
+    }
+
+    .kpi-value {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 600;
+      color: #FAF7F2;
+      margin: 0;
+    }
+
+    .kpi-sub {
+      font-size: 11px;
+      color: #C9BEB3;
+      margin: 2px 0 0;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 24px;
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(229, 221, 208, 0.2);
+      font-size: 12px;
+    }
+
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px dashed rgba(229, 221, 208, 0.15);
+      padding-bottom: 5px;
+    }
+
+    .meta-key {
+      color: #B8ACA0;
+      font-weight: 500;
+    }
+
+    .meta-val {
+      color: #FAF7F2;
+      font-weight: 600;
+      text-align: right;
+    }
+
+    .section-card {
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-hairline);
+      border-radius: 2px;
+      padding: 26px 30px;
+      margin-bottom: 20px;
+    }
+
+    .section-header {
+      border-bottom: 1px solid var(--border-hairline);
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    h2.section-title {
+      font-family: var(--font-serif);
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    h3.sub-title {
+      font-family: var(--font-serif);
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 18px 0 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      border-bottom: 1px solid var(--bg-surface);
+      padding-bottom: 4px;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    h3.sub-title .price-pill {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold-hover);
+      white-space: nowrap;
+    }
+
+    p {
+      margin: 0 0 10px;
+      color: var(--text-secondary);
+    }
+
+    ul.clean-list {
+      margin: 6px 0 14px;
+      padding-left: 18px;
+      color: var(--text-secondary);
+    }
+
+    ul.clean-list li {
+      margin-bottom: 5px;
+    }
+
+    ul.clean-list li strong {
+      color: var(--text-primary);
+    }
+
+    .callout-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 14px 0 4px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .callout-box {
+      background-color: var(--bg-canvas);
+      border: 1px solid var(--border-hairline);
+      border-left: 3px solid var(--accent-gold);
+      border-radius: 2px;
+      padding: 12px 14px;
+    }
+
+    .callout-box h4 {
+      margin: 0 0 4px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-primary);
+    }
+
+    .callout-box p {
+      margin: 0;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .workstream-block {
+      background-color: var(--bg-canvas);
+      border: 1px solid var(--border-hairline);
+      border-radius: 2px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+    }
+
+    .workstream-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      border-bottom: 1px solid var(--border-hairline);
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .workstream-head h4 {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .workstream-head .ws-price {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+      background: var(--bg-surface);
+      border: 1px solid var(--accent-gold);
+      padding: 3px 10px;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+
+    /* Tables */
+    table.spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 6px;
+      font-size: 12.5px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    table.spec-table thead th {
+      background-color: var(--bg-surface);
+      color: var(--text-primary);
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: left;
+      padding: 9px 10px;
+      border-top: 1px solid var(--border-hairline);
+      border-bottom: 1px solid var(--accent-gold);
+    }
+
+    table.spec-table thead th.num,
+    table.spec-table tbody td.num {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    table.spec-table thead th.center,
+    table.spec-table tbody td.center {
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    table.spec-table tbody td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border-hairline);
+      vertical-align: top;
+      color: var(--text-secondary);
+    }
+
+    table.spec-table tbody tr.group-row td {
+      background-color: #FBF9F5;
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+
+    table.spec-table tbody tr.subtotal-row td {
+      background-color: var(--bg-surface);
+      color: var(--text-primary);
+      font-weight: 700;
+      border-top: 1px solid var(--accent-gold);
+    }
+
+    table.spec-table tbody tr.grand-row td {
+      background-color: var(--bg-dark);
+      color: #FAF7F2;
+      font-weight: 700;
+      font-size: 13.5px;
+      border-top: 2px solid var(--accent-gold);
+    }
+
+    .badge-emerald {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--status-success);
+      background: rgba(46, 107, 78, 0.08);
+      border: 1px solid rgba(46, 107, 78, 0.25);
+      border-radius: 999px;
+      padding: 2px 8px;
+    }
+
+    .notice-box {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--accent-gold);
+      border-radius: 2px;
+      padding: 11px 14px;
+      font-size: 12px;
+      color: var(--text-primary);
+      margin: 10px 0 12px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .signoff-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 14px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .signoff-box {
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-canvas);
+      border-radius: 2px;
+      padding: 16px 18px;
+    }
+
+    .signoff-box h4 {
+      margin: 0 0 14px;
+      font-family: var(--font-serif);
+      font-size: 17px;
+      color: var(--text-primary);
+    }
+
+    .sig-line {
+      border-bottom: 1px solid var(--text-muted);
+      height: 26px;
+      margin-bottom: 8px;
+    }
+
+    .sig-caption {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin: 0 0 10px;
+    }
+
+    .doc-footer {
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 20px;
+    }
+
+    /* Responsive tweaks (Screen only so A4 print preserves multi-column grids) */
+    @media screen and (max-width: 780px) {
+      .kpi-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .meta-grid,
+      .callout-grid,
+      .signoff-grid {
+        grid-template-columns: 1fr;
+      }
+      .cover-card,
+      .section-card {
+        padding: 20px;
+      }
+    }
+
+    /* Strict Print / Save-to-PDF Styling */
+    @page {
+      size: A4;
+      margin: 11mm 13mm;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+
+      html,
+      body {
+        background-color: #FFFFFF !important;
+        font-size: 10.5px;
+        line-height: 1.42;
+      }
+
+      .document-wrap {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cover-card {
+        background-color: #1C1514 !important;
+        color: #FAF7F2 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        padding: 20px 24px 18px;
+        margin-bottom: 12px;
+      }
+
+      h1.doc-title {
+        font-size: 30px;
+      }
+
+      .doc-subtitle {
+        font-size: 12.5px;
+        margin-bottom: 14px;
+      }
+
+      .kpi-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+        margin-top: 12px;
+      }
+
+      .kpi-box {
+        padding: 9px 12px;
+      }
+
+      .kpi-value {
+        font-size: 19px;
+      }
+
+      .meta-grid {
+        margin-top: 14px;
+        padding-top: 12px;
+        gap: 7px 18px;
+        font-size: 11px;
+      }
+
+      .section-card {
+        background-color: #FFFFFF !important;
+        border: 1px solid #D8CFC2;
+        padding: 15px 18px;
+        margin-bottom: 12px;
+        box-shadow: none;
+      }
+
+      .page-break-before {
+        break-before: page;
+        page-break-before: always;
+      }
+
+      .keep-together {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      .section-header,
+      .workstream-head,
+      h3.sub-title {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        break-after: avoid;
+        page-break-after: avoid;
+      }
+
+      .callout-grid,
+      .callout-box,
+      .notice-box,
+      .signoff-grid,
+      .signoff-box,
+      table.spec-table,
+      table.spec-table tr,
+      ul.clean-list li {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      h2.section-title {
+        font-size: 19px;
+      }
+
+      h3.sub-title {
+        font-size: 14.5px;
+        margin: 12px 0 6px;
+      }
+
+      .workstream-block {
+        padding: 12px 15px;
+        margin-bottom: 10px;
+      }
+
+      .workstream-head h4 {
+        font-size: 16px;
+      }
+
+      table.spec-table {
+        font-size: 10.2px;
+      }
+
+      table.spec-table thead th,
+      table.spec-table tbody td {
+        padding: 6.5px 8px;
+      }
+
+      table.spec-table thead th,
+      table.spec-table tbody tr.subtotal-row td,
+      table.spec-table tbody tr.grand-row td,
+      .workstream-head .ws-price,
+      .notice-box,
+      .callout-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Screen-Only Sticky Action Bar -->
+  <div class="action-bar no-print">
+    <div class="action-bar-note">
+      <strong>Pitch Document Ready:</strong> Update placeholders like
+      <code>[Client Brand Name]</code> and <code>[Your Agency Name]</code> before exporting to PDF.
+    </div>
+    <button type="button" class="print-btn" onclick="window.print()">
+      Print / Save as PDF
+    </button>
+  </div>
+
+  <main class="document-wrap">
+
+    <!-- Cover / Executive Banner -->
+    <header class="cover-card">
+      <p class="eyebrow">Rough Quotation &amp; End-to-End Execution Proposal</p>
+      <h1 class="doc-title">Gold Jewellery E-Commerce Platform &amp; Digital Marketing Launch</h1>
+      <p class="doc-subtitle">
+        Full-stack Next.js commerce engineering, flexible macro-studio catalog onboarding, and performance SEO &amp; paid growth setup for pan-India retail and regional multi-branch showrooms.
+      </p>
+
+      <div class="kpi-grid">
+        <div class="kpi-box">
+          <p class="kpi-label">Investment (Excl. GST)</p>
+          <p class="kpi-value tabular-nums">₹14,00,000</p>
+          <p class="kpi-sub">Website + Creative + Marketing + PM</p>
+        </div>
+        <div class="kpi-box">
+          <p class="kpi-label">Grand Total (Incl. 18% GST)</p>
+          <p class="kpi-value tabular-nums">₹16,52,000</p>
+          <p class="kpi-sub">GST ₹2,52,000 (SAC 998313/998361)</p>
+        </div>
+        <div class="kpi-box">
+          <p class="kpi-label">Build Timeline</p>
+          <p class="kpi-value tabular-nums">75 Days</p>
+          <p class="kpi-sub">+ 30 Days Live Month-1 Ads &amp; Warranty</p>
+        </div>
+        <div class="kpi-box">
+          <p class="kpi-label">Payment Terms</p>
+          <p class="kpi-value tabular-nums">30 / 30 / 25 / 15</p>
+          <p class="kpi-sub">4 Milestone-Gated Tranches</p>
+        </div>
+      </div>
+
+      <div class="meta-grid">
+        <div class="meta-row">
+          <span class="meta-key">Prepared For</span>
+          <span class="meta-val">[Client Brand Name] ([Authorized Signatory])</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-key">Prepared By</span>
+          <span class="meta-val">[Your Agency Name]</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-key">Proposal Reference</span>
+          <span class="meta-val">[PROP-GOLD-2026-001]</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-key">Prepared Date &amp; Validity</span>
+          <span class="meta-val">[Prepared Date] · Valid 30 Calendar Days</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 1. Executive Summary -->
+    <section class="section-card">
+      <div class="section-header">
+        <p class="eyebrow">01 · Strategic Overview</p>
+        <h2 class="section-title">Executive Summary &amp; Architecture Advantage</h2>
+      </div>
+      <p>
+        Selling gold and diamond jewellery online across India requires specialized trust engineering—live 24KT/22KT/18KT/14KT pricing transparency, BIS HUID hallmark verification, itemized 3% GST invoices, Income Tax Rule 114B PAN KYC compliance on orders <strong>&ge; ₹2,00,000</strong>, and insured vault shipping paired with showroom pickup.
+      </p>
+      <p>
+        Our team has already built a live interactive Next.js storefront prototype (<strong>PIXTACY</strong>) showcasing dynamic gold-rate repricing, transparent PDP cost splits, multi-facet filtering, lookbook hotspots, and multi-city salon pickup. This quotation covers extending that proven storefront into a production-ready custom commerce system alongside full-service studio catalog onboarding and launch digital marketing within <strong>75 calendar days</strong>.
+      </p>
+
+      <div class="callout-grid">
+        <div class="callout-box">
+          <h4>0% Platform Fee</h4>
+          <p>Custom Next.js + PostgreSQL avoids 0.5%–2.0% SaaS platform surcharges on high-ticket ₹1L–₹5L+ gold transactions.</p>
+        </div>
+        <div class="callout-box">
+          <h4>Live Rate Lock</h4>
+          <p>Server-side metal/making/GST pricing with a 10–15 minute checkout rate-lock token prevents mid-payment bullion disputes.</p>
+        </div>
+        <div class="callout-box">
+          <h4>Single-Window PM</h4>
+          <p>Dedicated Project Manager interfaces directly with your showroom team across engineering, studio shoots, and ad specialists.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Detailed Scope of Work -->
+    <section class="section-card page-break-before">
+      <div class="section-header">
+        <p class="eyebrow">02 · Phase 1 Deliverables</p>
+        <h2 class="section-title">Detailed Scope of Work (Core Suite + Launch Marketing)</h2>
+      </div>
+
+      <!-- WS 1 -->
+      <div class="workstream-block">
+        <div class="workstream-head">
+          <h4>Workstream 1: Gold Jewellery E-Commerce Website (Engineering)</h4>
+          <span class="ws-price tabular-nums">₹9,50,000</span>
+        </div>
+
+        <h3 class="sub-title">
+          <span>1.1 Discovery, Brand Customization &amp; Storefront Productionization</span>
+          <span class="price-pill tabular-nums">₹2,20,000</span>
+        </h3>
+        <ul class="clean-list">
+          <li>Custom branding of the Next.js 15 / React 19 / Tailwind CSS 4 storefront (logo, typography, color tokens, showroom branches, editorial voice).</li>
+          <li>Production Homepage (Hero banner, Category strip, Collection grid, Interactive <em>Shop the Look</em> hotspots, Occasion/Tier shelves, Bestsellers, Concierge booking banner).</li>
+          <li>URL-synced multi-facet Product Listing Page (Category, Tier, Purity, Metal Finish, Occasion, Price, In-Stock, Sort) + responsive mobile filter drawer.</li>
+          <li>High-trust Product Detail Page with multi-angle zoom gallery, purity/metal/ring-size/engraving selectors, live <strong>Metal + Stone + Making + 3% GST breakup</strong>, BIS/HUID/IGI badges, Ring Size Guide, and live pincode ETA &amp; nearest salon pickup checker.</li>
+          <li>Database-backed Slide-Over Bag Drawer, Wishlist Drawer, Boutique/Video Appointment Modal, and Instant Search Overlay.</li>
+        </ul>
+
+        <h3 class="sub-title">
+          <span>1.2 Backend APIs, PostgreSQL Database &amp; Live Gold-Rate Engine</span>
+          <span class="price-pill tabular-nums">₹1,90,000</span>
+        </h3>
+        <ul class="clean-list">
+          <li>Relational PostgreSQL schema &amp; ORM covering collections, products, purity/finish variants, stock control, orders, customers, promos, rate history, and boutique bookings.</li>
+          <li>Automated Bullion Rate Sync (via approved feed at client actuals) plus instant <strong>Admin Daily Rate Override</strong> mode (₹0 API cost option).</li>
+          <li>Authoritative server-side price calculation and a <strong>10–15 minute Checkout Rate-Lock Token</strong> protecting orders during payment.</li>
+        </ul>
+
+        <h3 class="sub-title">
+          <span>1.3 Custom Jewellery Admin CMS</span>
+          <span class="price-pill tabular-nums">₹2,30,000</span>
+        </h3>
+        <ul class="clean-list">
+          <li>Role-based Admin access (Super Admin, Catalog Manager, Compliance/Order Ops, Showroom Staff) with audit logs.</li>
+          <li>Manage gram weights, purity options (24KT/22KT/18KT/14KT/925 Silver), % or flat making charges, stone values, BIS HUID, and lab certificate metadata.</li>
+          <li>Template-driven Bulk CSV/Excel Importer &amp; Exporter, order lifecycle board, boutique appointment schedule, and promo rule engine.</li>
+        </ul>
+
+        <h3 class="sub-title">
+          <span>1.4 Payments, &ge; ₹2L PAN KYC, 3% GST Invoices &amp; Insured Logistics</span>
+          <span class="price-pill tabular-nums">₹1,90,000</span>
+        </h3>
+        <ul class="clean-list">
+          <li><strong>Razorpay / Cashfree Gateway:</strong> UPI (with smart routing above UPI's ₹1,00,000 limit), Cards, NetBanking, and high-value NEFT/RTGS/Virtual Account support with webhook verification.</li>
+          <li><strong>Rule 114B PAN KYC:</strong> Mandatory PAN validation and encrypted PAN card image upload whenever order value reaches or exceeds <strong>₹2,00,000</strong>.</li>
+          <li><strong>HSN 7113 3% GST PDF Invoices:</strong> Automated itemized tax invoice per order (weight, rate/g, making, stone, CGST/SGST or IGST, HUID, GSTIN).</li>
+          <li><strong>Insured Vault Logistics &amp; Pickup:</strong> Sequel Logistics / BVC courier API integration (serviceability, AWB, OTP handover tracking) + multi-city showroom pickup flow.</li>
+        </ul>
+
+        <h3 class="sub-title">
+          <span>1.5 Customer Portal, Alerts, Security, QA &amp; 30-Day Warranty</span>
+          <span class="price-pill tabular-nums">₹1,20,000</span>
+        </h3>
+        <ul class="clean-list">
+          <li>Passwordless Mobile OTP / Email customer accounts, saved addresses, order &amp; AWB tracking, downloadable GST invoices/certificates, and appointment history.</li>
+          <li>Automated transactional WhatsApp / SMS / Email alerts (OTP, order confirmation, PAN review, dispatch AWB, pickup ready).</li>
+          <li>OWASP input hardening, SSL/TLS, encrypted KYC storage, cross-device QA, CI/CD production deployment, automated DB backups, staff CMS training, and <strong>30-day free post-launch bug-fix warranty</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- WS 2 -->
+      <div class="workstream-block keep-together">
+        <div class="workstream-head">
+          <h4>Workstream 2: Full-Service Creative &amp; Catalog Onboarding (Flexible Allowance)</h4>
+          <span class="ws-price tabular-nums">₹1,20,000</span>
+        </div>
+        <p>
+          Includes a capped baseline allowance of <strong>100 Launch SKUs @ ₹1,200/SKU</strong> so final spend tracks actual uploaded inventory (see Section 7 for the volume rate card and reconciliation terms):
+        </p>
+        <ul class="clean-list">
+          <li><strong>Macro Studio Shoot:</strong> 3–4 crisp angles per SKU (hero front, clasp/profile, detail macro, packaging/certificate view).</li>
+          <li><strong>Jewellery Retouching:</strong> Metal reflection cleanup, accurate 22KT/18KT gold tone calibration, gemstone polish, and fast web exports.</li>
+          <li><strong>Luxury &amp; SEO Copywriting:</strong> Editorial descriptions, metal/stone specifications, occasion tags, care notes, and SEO meta tags.</li>
+          <li><strong>Admin CMS Upload &amp; QA:</strong> Weight, purity, making-charge, HUID, imagery, and live price-breakup validation across all 100 baseline SKUs.</li>
+        </ul>
+      </div>
+
+      <!-- WS 3 -->
+      <div class="workstream-block keep-together">
+        <div class="workstream-head">
+          <h4>Workstream 3: Digital Marketing (Core Performance &amp; SEO Launch Stack)</h4>
+          <span class="ws-price tabular-nums">₹1,80,000</span>
+        </div>
+        <div class="notice-box">
+          <strong>Zero-Waste Launch Window:</strong> Technical SEO, Showroom GBPs, Tracking/CAPI, and Ad Creatives are built before Go-Live. <strong>Month-1 Live Ad Management runs for 30 full calendar days starting from Production Go-Live</strong> once real checkout is active.
+        </div>
+        <ul class="clean-list">
+          <li><strong>3.1 Technical &amp; E-Commerce SEO (₹50,000):</strong> Jewellery keyword map, SSR metadata, canonical rules for multi-facet filters, XML sitemaps, JSON-LD rich schema (<code>Product</code>, <code>Offer</code>, <code>LocalBusiness</code>, <code>BreadcrumbList</code>), and on-page optimization.</li>
+          <li><strong>3.2 Local SEO &amp; Showroom GBPs (₹25,000):</strong> Optimization &amp; verification support for up to <strong>4 showroom Google Business Profiles</strong> with standardized NAP citations, categories, and UTM appointment links.</li>
+          <li><strong>3.3 Analytics &amp; Server-Side Tracking (₹40,000):</strong> GTM + GA4 Enhanced E-Commerce funnel events, Meta Pixel + Server-Side Conversions API (CAPI) deduplication, and automated Google Merchant Center &amp; Meta product feeds.</li>
+          <li><strong>3.4 Google &amp; Meta Launch Ads + Month-1 Management (₹65,000):</strong> Campaign architecture across Google Search/Shopping/PMax &amp; Meta Conversions, 12–15 launch static/carousel creatives, and 30 days of active ROAS/bid optimization <em>(paid ad media spend billed directly at actuals)</em>.</li>
+        </ul>
+      </div>
+
+      <!-- WS 4 -->
+      <div class="workstream-block keep-together">
+        <div class="workstream-head">
+          <h4>Workstream 4: Dedicated Project Management &amp; Governance (75 Days)</h4>
+          <span class="ws-price tabular-nums">₹1,50,000</span>
+        </div>
+        <ul class="clean-list">
+          <li>Dedicated Manager as your Single Point of Contact across the full 75-day lifecycle.</li>
+          <li>Requirement discovery, sprint breakdown for the 2 Full-Stack Developers, weekly live staging demos, studio shoot &amp; marketing coordination, KYC follow-up, and UAT launch sign-off.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. Team & Roadmap -->
+    <section class="section-card page-break-before">
+      <div class="section-header">
+        <p class="eyebrow">03 · Team &amp; Schedule</p>
+        <h2 class="section-title">Delivery Team &amp; 75-Day Execution Roadmap</h2>
+      </div>
+
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Engagement Window</th>
+            <th>Core Accountability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Dedicated Project / Account Manager</strong></td>
+            <td>Full 75 Days</td>
+            <td>Client SPOC, requirements-to-dev translation, weekly demos, shoot &amp; marketing vendor oversight, UAT governance.</td>
+          </tr>
+          <tr>
+            <td><strong>Senior Full-Stack Lead Developer</strong></td>
+            <td>Full 75 Days</td>
+            <td>PostgreSQL architecture, live gold-rate + rate-lock engine, Razorpay/Cashfree, Rule 114B PAN KYC, 3% GST invoices, security &amp; DevOps.</td>
+          </tr>
+          <tr>
+            <td><strong>Full-Stack Storefront &amp; CMS Developer</strong></td>
+            <td>Full 75 Days</td>
+            <td>Branded Next.js storefront, Custom Admin CMS, bulk CSV tools, Sequel/pickup UX, customer portal, GTM/GA4/CAPI hooks.</td>
+          </tr>
+          <tr>
+            <td><strong>Jewellery Studio Specialist</strong> <em>(Contracted)</em></td>
+            <td>Days 15–55 (Phased)</td>
+            <td>Macro 3–4 angle jewellery photography, metal/stone retouching, luxury SEO copywriting, catalog upload QA.</td>
+          </tr>
+          <tr>
+            <td><strong>Performance Marketer &amp; SEO Specialist</strong> <em>(Contracted)</em></td>
+            <td>Days 35–75 + Month-1 Live</td>
+            <td>Technical &amp; local SEO, 4 showroom GBPs, GA4/CAPI/GMC feed, launch ad creatives, 30-day post-launch Google/Meta optimization.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub-title" style="margin-top: 22px;">
+        <span>75-Day Phased Milestone Plan</span>
+        <span class="badge-emerald">Go-Live on Day 75</span>
+      </h3>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Phase</th>
+            <th>Days</th>
+            <th>Key Deliverables</th>
+            <th>Client Gate / Sign-Off</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Phase 1: Discovery &amp; Infra</strong></td>
+            <td class="tabular-nums">Days 1–15</td>
+            <td>Brand &amp; making-charge rules locked; Razorpay/Sequel/Bullion/WhatsApp KYC submitted; DB finalized; SEO &amp; GBP audit; pilot SKU batch handed over.</td>
+            <td>Brand &amp; KYC initiation; pilot SKUs ready</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 2: Backend, CMS &amp; Shoot</strong></td>
+            <td class="tabular-nums">Days 16–45</td>
+            <td>PostgreSQL DB, live gold-rate sync &amp; rate-lock engine, Admin CMS, CSV importer &amp; customer accounts; 100-SKU studio shoot, retouching &amp; copy; tracking setup.</td>
+            <td><strong>Milestone 2:</strong> Admin CMS demo + shoot style approval</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 3: Storefront, Compliance &amp; Marketing Prep</strong></td>
+            <td class="tabular-nums">Days 46–62</td>
+            <td>Live Next.js storefront wired to APIs; Razorpay, &ge; ₹2L PAN KYC, 3% GST PDF invoices &amp; Sequel/pickup; full baseline catalog loaded; JSON-LD SEO, CAPI &amp; launch creatives.</td>
+            <td><strong>Milestone 3:</strong> Staging UAT &amp; catalog verification</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 4: Hardening, Training &amp; Launch</strong></td>
+            <td class="tabular-nums">Days 63–75</td>
+            <td>Security/load testing, mobile/browser QA, live domain cutover, SSL/backups, client staff training, and Go-Live activation of Google &amp; Meta campaigns.</td>
+            <td><strong>Milestone 4:</strong> Production Go-Live + Month-1 Ads &amp; Warranty Start</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 4. Commercial Summary & Payment Schedule -->
+    <section class="section-card page-break-before">
+      <div class="section-header">
+        <p class="eyebrow">04 · Commercial Investment</p>
+        <h2 class="section-title">Itemized Rough Quotation &amp; Payment Milestones</h2>
+      </div>
+
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th style="width: 10%;">Ref</th>
+            <th>Workstream / Deliverable</th>
+            <th class="num" style="width: 22%;">Investment (Excl. GST)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="group-row">
+            <td>WS 1</td>
+            <td>Gold Jewellery E-Commerce Website (End-to-End Engineering)</td>
+            <td class="num tabular-nums">₹9,50,000</td>
+          </tr>
+          <tr>
+            <td>1.1</td>
+            <td>Discovery, Brand Customization &amp; Storefront Productionization</td>
+            <td class="num tabular-nums">₹2,20,000</td>
+          </tr>
+          <tr>
+            <td>1.2</td>
+            <td>Backend APIs, PostgreSQL DB &amp; Live Gold-Rate + Rate-Lock Engine</td>
+            <td class="num tabular-nums">₹1,90,000</td>
+          </tr>
+          <tr>
+            <td>1.3</td>
+            <td>Custom Jewellery Admin CMS (SKUs, Purity, Weights, HUID, Orders, CSV)</td>
+            <td class="num tabular-nums">₹2,30,000</td>
+          </tr>
+          <tr>
+            <td>1.4</td>
+            <td>Razorpay/Cashfree, &ge; ₹2L PAN KYC, 3% GST Invoices &amp; Sequel/Salon Pickup</td>
+            <td class="num tabular-nums">₹1,90,000</td>
+          </tr>
+          <tr>
+            <td>1.5</td>
+            <td>Customer Portal, Alerts, Security, QA, Deployment &amp; 30-Day Warranty</td>
+            <td class="num tabular-nums">₹1,20,000</td>
+          </tr>
+          <tr class="group-row">
+            <td>WS 2</td>
+            <td>Full-Service Creative &amp; Catalog Onboarding (100-SKU Baseline @ ₹1,200/SKU)</td>
+            <td class="num tabular-nums">₹1,20,000</td>
+          </tr>
+          <tr class="group-row">
+            <td>WS 3</td>
+            <td>Digital Marketing (Core Performance &amp; SEO Launch Stack)</td>
+            <td class="num tabular-nums">₹1,80,000</td>
+          </tr>
+          <tr>
+            <td>3.1</td>
+            <td>Technical &amp; E-Commerce SEO, Schema Markup &amp; On-Page Optimization</td>
+            <td class="num tabular-nums">₹50,000</td>
+          </tr>
+          <tr>
+            <td>3.2</td>
+            <td>Local SEO &amp; Google Business Profiles (Up to 4 Showrooms)</td>
+            <td class="num tabular-nums">₹25,000</td>
+          </tr>
+          <tr>
+            <td>3.3</td>
+            <td>GA4 E-Commerce, GTM, Meta Pixel + CAPI &amp; Merchant Center Feed</td>
+            <td class="num tabular-nums">₹40,000</td>
+          </tr>
+          <tr>
+            <td>3.4</td>
+            <td>Google Search/Shopping &amp; Meta Ads Setup, Launch Creatives &amp; 30-Day Management</td>
+            <td class="num tabular-nums">₹65,000</td>
+          </tr>
+          <tr class="group-row">
+            <td>WS 4</td>
+            <td>Dedicated Project Management, Client Liaison &amp; Governance (75 Days)</td>
+            <td class="num tabular-nums">₹1,50,000</td>
+          </tr>
+          <tr class="subtotal-row">
+            <td colspan="2">PROJECT SUBTOTAL (EXCL. GST)</td>
+            <td class="num tabular-nums">₹14,00,000</td>
+          </tr>
+          <tr>
+            <td colspan="2">GST @ 18% (SAC 998313 / 998361)</td>
+            <td class="num tabular-nums">₹2,52,000</td>
+          </tr>
+          <tr class="grand-row">
+            <td colspan="2">GRAND TOTAL PAYABLE (INCL. 18% GST)</td>
+            <td class="num tabular-nums">₹16,52,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub-title" style="margin-top: 22px;">
+        <span>4-Milestone Payment Schedule (30% / 30% / 25% / 15%)</span>
+        <span class="price-pill">7-Day Net Payment Terms</span>
+      </h3>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Milestone</th>
+            <th>Trigger / Target Day</th>
+            <th class="center">Share</th>
+            <th class="num">Excl. GST</th>
+            <th class="num">18% GST</th>
+            <th class="num">Total (Incl. GST)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Milestone 1</strong></td>
+            <td>Project Kickoff &amp; Discovery Initiation (Day 1)</td>
+            <td class="center tabular-nums">30%</td>
+            <td class="num tabular-nums">₹4,20,000</td>
+            <td class="num tabular-nums">₹75,600</td>
+            <td class="num tabular-nums"><strong>₹4,95,600</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Milestone 2</strong></td>
+            <td>Core Backend, Rate Engine, Admin CMS &amp; Studio Style Sign-Off (Day 45)</td>
+            <td class="center tabular-nums">30%</td>
+            <td class="num tabular-nums">₹4,20,000</td>
+            <td class="num tabular-nums">₹75,600</td>
+            <td class="num tabular-nums"><strong>₹4,95,600</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Milestone 3</strong></td>
+            <td>Full Storefront UAT, Catalog Loaded &amp; SEO/Tracking Ready (Day 62)</td>
+            <td class="center tabular-nums">25%</td>
+            <td class="num tabular-nums">₹3,50,000</td>
+            <td class="num tabular-nums">₹63,000</td>
+            <td class="num tabular-nums"><strong>₹4,13,000</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Milestone 4</strong></td>
+            <td>Production Go-Live, Staff Training &amp; Month-1 Ads Start (Day 75)</td>
+            <td class="center tabular-nums">15%</td>
+            <td class="num tabular-nums">₹2,10,000</td>
+            <td class="num tabular-nums">₹37,800</td>
+            <td class="num tabular-nums"><strong>₹2,47,800</strong></td>
+          </tr>
+          <tr class="subtotal-row">
+            <td colspan="2">TOTAL MILESTONE SCHEDULE</td>
+            <td class="center tabular-nums">100%</td>
+            <td class="num tabular-nums">₹14,00,000</td>
+            <td class="num tabular-nums">₹2,52,000</td>
+            <td class="num tabular-nums">₹16,52,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 5. Creative Rate Card & Optional Retainers / Phase 2 -->
+    <section class="section-card page-break-before">
+      <div class="section-header">
+        <p class="eyebrow">05 · Flexible Scale &amp; Add-Ons</p>
+        <h2 class="section-title">Creative Rate Card, Post-Launch Retainers &amp; Phase 2 Menu</h2>
+      </div>
+
+      <h3 class="sub-title">
+        <span>Flexible Creative Per-SKU Rate Card (Excl. GST)</span>
+        <span class="price-pill">Reconciled at Actuals</span>
+      </h3>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Tier / Creative Option</th>
+            <th class="num">Unit Rate</th>
+            <th>Details &amp; Reconciliation Rule</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Baseline Allowance (1–100 SKUs)</strong></td>
+            <td class="num tabular-nums"><strong>₹1,200 / SKU</strong></td>
+            <td>Included in base quote (₹1,20,000). Unused SKU balance below 100 is credited or banked for post-launch arrivals.</td>
+          </tr>
+          <tr>
+            <td><strong>Scale Tier A (101–250 SKUs)</strong></td>
+            <td class="num tabular-nums"><strong>₹1,100 / SKU</strong></td>
+            <td>3–4 angle macro shoot, retouching, SEO copywriting &amp; CMS upload.</td>
+          </tr>
+          <tr>
+            <td><strong>Scale Tier B (251+ SKUs)</strong></td>
+            <td class="num tabular-nums"><strong>₹950 / SKU</strong></td>
+            <td>High-volume batch rate; SKUs above 150 can onboard in post-launch batches without delaying Day-75 Go-Live.</td>
+          </tr>
+          <tr>
+            <td><strong>CMS Upload Only (Client-Supplied Photos)</strong></td>
+            <td class="num tabular-nums"><strong>₹250 / SKU</strong></td>
+            <td>Crop/compression, copy formatting, weight/HUID entry &amp; QA using client's existing photography.</td>
+          </tr>
+          <tr>
+            <td><strong>Optional Editorial Model Lookbook Shoot</strong></td>
+            <td class="num tabular-nums"><strong>₹75,000 / ₹1,35,000</strong></td>
+            <td>Half-Day (15–20 hero shots) or Full-Day (35–40 shots + raw short clips for Lookbook &amp; Meta ads).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub-title" style="margin-top: 20px;">
+        <span>Optional Monthly Retainers &amp; Modular Marketing Add-Ons (Excl. GST)</span>
+      </h3>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Retainer / Marketing Add-On</th>
+            <th class="num">Investment</th>
+            <th>Scope Summary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Website Tech AMC &amp; SLA Support</strong> <em>(Post 30-day warranty)</em></td>
+            <td class="num tabular-nums"><strong>₹35,000 / mo</strong></td>
+            <td>24&times;7 uptime monitoring, security patches, Gateway/Sequel/Bullion API maintenance, daily backup checks &amp; up to 15 dev hrs/mo.</td>
+          </tr>
+          <tr>
+            <td><strong>Performance Ads &amp; SEO Growth Retainer</strong> <em>(Month 2+)</em></td>
+            <td class="num tabular-nums"><strong>₹65,000 / mo</strong></td>
+            <td>Ongoing Google &amp; Meta ROAS scaling, A/B ad creative refresh, monthly SEO expansion &amp; bi-weekly reporting (ad spend extra).</td>
+          </tr>
+          <tr>
+            <td><strong>Social Media Management &amp; Reels</strong></td>
+            <td class="num tabular-nums"><strong>₹45,000 / mo</strong></td>
+            <td>Instagram &amp; Facebook editorial calendar, 12–16 static/carousel posts + 4–6 short reels/month.</td>
+          </tr>
+          <tr>
+            <td><strong>WhatsApp Business API &amp; Email Automation</strong></td>
+            <td class="num tabular-nums"><strong>₹35,000 + ₹15,000 / mo</strong></td>
+            <td>One-time setup + monthly flow tuning for abandoned carts, gold-rate alerts &amp; festive VIP drops (BSP credits at actuals).</td>
+          </tr>
+          <tr>
+            <td><strong>Showroom Footfall &amp; VIP Reactivation / Influencer Campaign</strong></td>
+            <td class="num tabular-nums"><strong>₹25,000 / ₹30,000</strong></td>
+            <td>₹25,000 per hyperlocal showroom/VIP reactivation campaign; ₹30,000 per bridal influencer campaign (creator fees at actuals).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub-title" style="margin-top: 20px;">
+        <span>Priced Phase 2 Jewellery Software Add-On Menu (Post Day-75, Excl. GST)</span>
+      </h3>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Phase 2 Module</th>
+            <th class="center">Est. Timeline</th>
+            <th class="num">Investment</th>
+            <th>Core Capabilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Old Gold Exchange / Buyback Estimator</strong></td>
+            <td class="center">2–3 Weeks</td>
+            <td class="num tabular-nums"><strong>₹1,20,000</strong></td>
+            <td>Purity/weight valuation calculator, insured pickup or salon drop-off booking &amp; store-credit workflow.</td>
+          </tr>
+          <tr>
+            <td><strong>Monthly Gold Saving Scheme (11+1 SIP)</strong></td>
+            <td class="center">4–5 Weeks</td>
+            <td class="num tabular-nums"><strong>₹2,20,000</strong></td>
+            <td>Customer enrollment, UPI AutoPay / e-Mandate installments, digital passbook &amp; redemption portal.</td>
+          </tr>
+          <tr>
+            <td><strong>Showroom ERP / POS 2-Way Sync</strong></td>
+            <td class="center">4–6 Weeks</td>
+            <td class="num tabular-nums"><strong>₹2,00,000 – ₹3,50,000</strong></td>
+            <td>Automated inventory &amp; billing sync (Tally / Marg / Ornate / Acme — subject to ERP API availability).</td>
+          </tr>
+          <tr>
+            <td><strong>Live Video Shopping &amp; Concierge CRM</strong></td>
+            <td class="center">3 Weeks</td>
+            <td class="num tabular-nums"><strong>₹1,50,000</strong></td>
+            <td>Assisted live video consultations, in-call SKU pinning &amp; showroom executive assignment.</td>
+          </tr>
+          <tr>
+            <td><strong>AR Virtual Try-On Integration</strong></td>
+            <td class="center">3–4 Weeks</td>
+            <td class="num tabular-nums"><strong>₹1,60,000</strong></td>
+            <td>Camera try-on integration for necklaces/earrings/rings (third-party AR SDK license at client actuals).</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 6. Pass-Through Costs & Governance -->
+    <section class="section-card page-break-before">
+      <div class="section-header">
+        <p class="eyebrow">06 · Pass-Throughs &amp; Commercial Terms</p>
+        <h2 class="section-title">Indicative Third-Party Running Costs &amp; Terms</h2>
+      </div>
+
+      <div class="notice-box">
+        <strong>Pass-Through Transparency &amp; Market Estimate Notice:</strong> All domains, cloud hosting, bullion APIs, payment gateway MDR, insured courier bills, messaging credits, and Google/Meta ad spends are owned directly by <strong>[Client Brand Name]</strong> at vendor actuals (zero agency markup). Figures below are <em>indicative market estimates</em> for budgeting—confirm exact tariffs on official vendor agreements during onboarding.
+      </div>
+
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Infrastructure / Vendor Category</th>
+            <th>Recommended Providers</th>
+            <th class="num">Indicative Market Estimate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Domain Registration</strong></td>
+            <td>Cloudflare / GoDaddy / Namecheap</td>
+            <td class="num tabular-nums">~₹1,000 – ₹1,800 / year</td>
+          </tr>
+          <tr>
+            <td><strong>Hosting, PostgreSQL DB &amp; Media CDN</strong></td>
+            <td>Vercel Pro + Managed Postgres + Cloudinary/R2</td>
+            <td class="num tabular-nums">~₹6,000 – ₹15,000 / month</td>
+          </tr>
+          <tr>
+            <td><strong>Live Gold Rate API Feed</strong></td>
+            <td>Approved Bullion API <em>(or ₹0 via Admin Daily Override)</em></td>
+            <td class="num tabular-nums">₹0 – ₹8,000 / month</td>
+          </tr>
+          <tr>
+            <td><strong>Payment Gateway MDR</strong></td>
+            <td>Razorpay / Cashfree</td>
+            <td class="num">~0% UPI · ~1.8%–2.2% Cards/NetBanking</td>
+          </tr>
+          <tr>
+            <td><strong>Insured Vault Courier</strong></td>
+            <td>Sequel Logistics / BVC Logistics</td>
+            <td class="num tabular-nums">~₹450 – ₹1,500+ / shipment (by insured value)</td>
+          </tr>
+          <tr>
+            <td><strong>Transactional WhatsApp &amp; SMS/Email</strong></td>
+            <td>Interakt / Gupshup / MSG91 / Resend</td>
+            <td class="num tabular-nums">~₹1,500 – ₹5,000 / month</td>
+          </tr>
+          <tr>
+            <td><strong>Paid Ad Media Spend</strong></td>
+            <td>Google Ads &amp; Meta Ads (Client-Owned Accounts)</td>
+            <td class="num tabular-nums">Recommended ₹1,00,000 – ₹3,00,000 / month</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub-title" style="margin-top: 20px;">
+        <span>Key Assumptions, Governance &amp; Sign-Off</span>
+      </h3>
+      <ul class="clean-list">
+        <li><strong>48-Hour Approval SLA:</strong> Designated client signatory approves brand assets, pricing logic, studio pilot shots, and UAT checkpoints within 48 business hours to protect the 75-day Go-Live schedule.</li>
+        <li><strong>Week-1 Merchant KYC &amp; Shoot Manifest:</strong> Razorpay/Cashfree, Sequel/BVC, and WhatsApp API onboarding must start in Week 1 using client GSTIN/PAN/BIS documents. Physical jewellery handed over for photography remains under client jeweller transit insurance.</li>
+        <li><strong>30-Day Bug-Fix Warranty &amp; Full IP Transfer:</strong> 30 calendar days of complimentary post-launch defect resolution on Phase 1 scope. Full source code, DB schema, and commissioned creative ownership transfer to <strong>[Client Brand Name]</strong> upon Milestone 4 settlement.</li>
+        <li><strong>Change Requests &amp; Validity:</strong> Features beyond Phase 1 Core Suite follow formal CR estimation. This rough quotation is valid for <strong>30 calendar days</strong> and locks into a fixed SOW post Week-1 Discovery.</li>
+      </ul>
+
+      <div class="signoff-grid">
+        <div class="signoff-box">
+          <h4>Accepted For [Client Brand Name]</h4>
+          <div class="sig-line"></div>
+          <p class="sig-caption">Authorized Name &amp; Designation</p>
+          <div class="sig-line"></div>
+          <p class="sig-caption">Signature, Company Stamp &amp; Date</p>
+        </div>
+        <div class="signoff-box">
+          <h4>Submitted By [Your Agency Name]</h4>
+          <div class="sig-line"></div>
+          <p class="sig-caption">Authorized Name &amp; Designation</p>
+          <div class="sig-line"></div>
+          <p class="sig-caption">Signature &amp; Date</p>
+        </div>
+      </div>
+    </section>
+
+    <p class="doc-footer">
+      Prepared exclusively for [Client Brand Name] · Reference [PROP-GOLD-2026-001] · Rough Budgetary Quotation (Excl. 18% GST)
+    </p>
+  </main>
+
+</body>
+</html>

@@ -23,12 +23,12 @@ export async function generateMetadata({
 
   if (!collection) {
     return {
-      title: 'Collection Not Found — ZAVERA',
+      title: 'Collection Not Found — PIXTACY',
     };
   }
 
   return {
-    title: `${collection.name} Collection — ${collection.tagline} | ZAVERA`,
+    title: `${collection.name} Collection — ${collection.tagline} | PIXTACY`,
     description: collection.description,
   };
 }

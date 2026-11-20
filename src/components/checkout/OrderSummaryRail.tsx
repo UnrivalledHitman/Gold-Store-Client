@@ -240,7 +240,7 @@ export function OrderSummaryRail({
           aria-hidden="true"
         />
         <span>
-          15-day complimentary returns · Lifetime ZAVERA gold exchange ·
+          15-day complimentary returns · Lifetime PIXTACY gold exchange ·
           Tamper-proof sealed packaging.
         </span>
       </div>

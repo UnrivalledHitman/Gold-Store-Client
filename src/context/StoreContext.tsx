@@ -30,14 +30,14 @@ import {
 import { PROMO_CODES } from '@/lib/siteConfig';
 
 const STORAGE_KEYS = {
-  rate22K: 'zavera_rate_22k_v1',
-  cart: 'zavera_cart_v1',
-  wishlist: 'zavera_wishlist_v1',
-  giftBox: 'zavera_gift_box_v1',
-  giftNote: 'zavera_gift_note_v1',
-  promoCode: 'zavera_promo_code_v1',
-  bookings: 'zavera_bookings_v1',
-  orders: 'zavera_orders_v1',
+  rate22K: 'pixtacy_rate_22k_v1',
+  cart: 'pixtacy_cart_v1',
+  wishlist: 'pixtacy_wishlist_v1',
+  giftBox: 'pixtacy_gift_box_v1',
+  giftNote: 'pixtacy_gift_note_v1',
+  promoCode: 'pixtacy_promo_code_v1',
+  bookings: 'pixtacy_bookings_v1',
+  orders: 'pixtacy_orders_v1',
 } as const;
 
 export interface AddToCartOptions {
@@ -224,7 +224,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     }
 
     const storedPromo = safeReadStorage<string | null>(STORAGE_KEYS.promoCode, null);
-    if (storedPromo === 'ZAVERA10' || storedPromo === 'FIRST500') {
+    if (storedPromo === 'PIXTACY10' || storedPromo === 'FIRST500') {
       setPromoCode(storedPromo);
     }
 
@@ -423,7 +423,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const applyPromoCode = useCallback(
     (rawCode: string): PromoApplyResult => {
       const normalized = rawCode.trim().toUpperCase();
-      if (normalized === 'ZAVERA10' || normalized === 'FIRST500') {
+      if (normalized === 'PIXTACY10' || normalized === 'FIRST500') {
         setPromoCode(normalized);
         const config = PROMO_CODES[normalized];
         showToast(`${normalized} applied — ${config.label}`);
@@ -431,7 +431,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       }
       return {
         ok: false,
-        message: 'Invalid promo code. Try ZAVERA10 or FIRST500.',
+        message: 'Invalid promo code. Try PIXTACY10 or FIRST500.',
       };
     },
     [showToast]
@@ -474,7 +474,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     const afterBundle = Math.max(0, totalSubtotal - bundleDiscount);
 
     let computedPromoDiscount = 0;
-    if (afterBundle > 0 && promoCode === 'ZAVERA10') {
+    if (afterBundle > 0 && promoCode === 'PIXTACY10') {
       computedPromoDiscount = Math.round(afterBundle * 0.1);
     } else if (afterBundle > 0 && promoCode === 'FIRST500') {
       computedPromoDiscount = Math.min(500, afterBundle);
@@ -516,7 +516,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     (input: AddBookingInput): BoutiqueBooking => {
       const booking: BoutiqueBooking = {
         ...input,
-        id: `ZAV-APT-${Math.floor(1000 + Math.random() * 9000)}`,
+        id: `PIX-APT-${Math.floor(1000 + Math.random() * 9000)}`,
         createdAt: new Date().toISOString(),
       };
       setBookings((prev) => [booking, ...prev]);
@@ -551,7 +551,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       });
 
       const order: DemoOrder = {
-        orderId: `ZAV-2026-${Math.floor(1000 + Math.random() * 9000)}`,
+        orderId: `PIX-2026-${Math.floor(1000 + Math.random() * 9000)}`,
         createdAt: new Date().toISOString(),
         deliveryMethod: input.deliveryMethod,
         boutiqueName: input.boutiqueName,

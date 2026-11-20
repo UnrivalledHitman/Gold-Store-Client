@@ -81,7 +81,7 @@ export function MobileFilterSheet({
           className="fixed inset-0 z-50 flex items-end justify-center lg:hidden"
           role="dialog"
           aria-modal="true"
-          aria-label="Filter ZAVERA Catalogue"
+          aria-label="Filter PIXTACY Catalogue"
         >
           <motion.div
             initial={{ opacity: 0 }}

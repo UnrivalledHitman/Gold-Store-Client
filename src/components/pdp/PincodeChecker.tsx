@@ -13,7 +13,7 @@ const SAMPLE_PINCODES: { code: string; city: string }[] = [
 ];
 
 /**
- * 6-digit Indian pincode delivery & nearest ZAVERA salon pickup lookup.
+ * 6-digit Indian pincode delivery & nearest PIXTACY salon pickup lookup.
  */
 export function PincodeChecker() {
   const { openBookingModal } = useStore();
@@ -133,7 +133,7 @@ export function PincodeChecker() {
                     <p className="text-[10px] font-semibold uppercase tracking-[0.1em] text-[#8C7E75]">
                       {result.boutiquePickupAvailable
                         ? 'Same-Day Salon Pickup'
-                        : 'Nearest ZAVERA Salon'}
+                        : 'Nearest PIXTACY Salon'}
                     </p>
                     <p className="mt-0.5 truncate text-xs font-semibold text-[#1C1514]">
                       {result.nearestBoutique.shortLabel}

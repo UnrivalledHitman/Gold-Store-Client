@@ -22,7 +22,7 @@ export interface CheckoutStepperProps {
 }
 
 /**
- * Top editorial client-demo notice banner paired with ZAVERA's Sequel insured
+ * Top editorial client-demo notice banner paired with PIXTACY's Sequel insured
  * transit & BIS/IGI guarantees and 3-step luxury progress indicator.
  */
 export function CheckoutStepper({
@@ -101,7 +101,7 @@ export function CheckoutStepper({
 
           <h1 className="mt-2 font-serif text-3xl font-medium tracking-tight text-[#1C1514] sm:text-4xl">
             {currentStep === 3
-              ? 'Your ZAVERA Dossier & Receipt'
+              ? 'Your PIXTACY Dossier & Receipt'
               : 'Private Client Checkout'}
           </h1>
         </div>

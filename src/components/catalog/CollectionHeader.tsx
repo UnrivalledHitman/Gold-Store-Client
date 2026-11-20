@@ -17,7 +17,7 @@ export interface CollectionHeaderProps {
 
 /**
  * Dynamic editorial header: renders either the bespoke collection campaign banner
- * (/collections/[slug]) or the full-house ZAVERA capsule header (/collections).
+ * (/collections/[slug]) or the full-house PIXTACY capsule header (/collections).
  */
 export function CollectionHeader({
   collection,
@@ -163,7 +163,7 @@ export function CollectionHeader({
     );
   }
 
-  // Full-house ZAVERA capsule header on /collections
+  // Full-house PIXTACY capsule header on /collections
   return (
     <section className="border-b border-[#E5DDD0] bg-[#FAF7F2]">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
@@ -181,7 +181,7 @@ export function CollectionHeader({
         <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <div className="max-w-2xl">
             <p className="text-[11px] font-medium uppercase tracking-[0.24em] text-[#AE8439]">
-              The ZAVERA House Catalogue
+              The PIXTACY House Catalogue
             </p>
             <h1 className="mt-1.5 font-serif text-4xl font-medium tracking-tight text-[#1C1514] sm:text-5xl">
               Curated Fine &amp; Demi-Fine{' '}

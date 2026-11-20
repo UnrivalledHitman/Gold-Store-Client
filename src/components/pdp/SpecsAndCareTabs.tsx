@@ -119,7 +119,7 @@ export function SpecsAndCareTabs({
               </div>
               <p className="mt-2 text-xs leading-relaxed text-[#5C504A]">
                 {isSolis
-                  ? 'Plated with 2.5 microns of genuine 18K gold over hypoallergenic 925 sterling silver and backed by ZAVERA’s 1-year waterproof warranty.'
+                  ? 'Plated with 2.5 microns of genuine 18K gold over hypoallergenic 925 sterling silver and backed by PIXTACY’s 1-year waterproof warranty.'
                   : 'Every fine gold piece carries a Government-approved BIS 916 or 750 laser HUID hallmark verifiable on the BIS Care portal.'}
               </p>
             </div>
@@ -137,8 +137,8 @@ export function SpecsAndCareTabs({
                 {product.collection === 'noor'
                   ? 'Accompanied by an independent International Gemological Institute (IGI) certificate detailing EF colour, VVS clarity, and cut precision.'
                   : isSolis
-                  ? '15-day effortless exchange or store credit on unworn Solis demi-fine pieces across all 4 ZAVERA salons.'
-                  : 'Upgrade or exchange your ZAVERA fine gold creation at 100% of the prevailing bullion value at any ZAVERA salon.'}
+                  ? '15-day effortless exchange or store credit on unworn Solis demi-fine pieces across all 4 PIXTACY salons.'
+                  : 'Upgrade or exchange your PIXTACY fine gold creation at 100% of the prevailing bullion value at any PIXTACY salon.'}
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export function SpecsAndCareTabs({
 
             <ul className="grid grid-cols-1 gap-2.5 text-xs text-[#5C504A] sm:grid-cols-2">
               <li className="rounded-[2px] border border-[#E5DDD0] bg-[#FFFFFF] px-3.5 py-2.5">
-                • Store individually inside the suede-lined ZAVERA pouch to
+                • Store individually inside the suede-lined PIXTACY pouch to
                 prevent metal-on-metal micro-abrasions.
               </li>
               <li className="rounded-[2px] border border-[#E5DDD0] bg-[#FFFFFF] px-3.5 py-2.5">

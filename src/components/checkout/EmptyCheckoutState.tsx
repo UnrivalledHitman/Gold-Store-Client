@@ -20,7 +20,7 @@ export interface EmptyCheckoutStateProps {
 }
 
 /**
- * Elegant empty-bag state linking back to ZAVERA collections, with a one-click
+ * Elegant empty-bag state linking back to PIXTACY collections, with a one-click
  * card to view the latest saved localStorage demo order receipt when present.
  */
 export function EmptyCheckoutState({
@@ -41,7 +41,7 @@ export function EmptyCheckoutState({
         </div>
 
         <p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#C69C4D]">
-          ZAVERA Bag · Empty
+          PIXTACY Bag · Empty
         </p>
         <h2 className="mt-1.5 font-serif text-3xl font-medium text-[#1C1514] sm:text-4xl">
           Your Bag Awaits Its First Piece

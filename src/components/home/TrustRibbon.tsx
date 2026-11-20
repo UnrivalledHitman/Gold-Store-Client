@@ -47,7 +47,7 @@ const ASSURANCES: AssuranceItem[] = [
 export function TrustRibbon() {
   return (
     <section
-      aria-label="ZAVERA House Guarantees"
+      aria-label="PIXTACY House Guarantees"
       className="border-b border-[#E5DDD0] bg-[#FFFFFF]"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

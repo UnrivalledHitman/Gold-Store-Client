@@ -43,7 +43,7 @@ const PRIMARY_NAV: NavItem[] = [
 ];
 
 /**
- * Sticky ZAVERA storefront header with centered serif wordmark,
+ * Sticky PIXTACY storefront header with centered serif wordmark,
  * primary collection nav, Cmd/Ctrl+K search, live Wishlist & Bag triggers,
  * and responsive Mobile Menu drawer.
  */
@@ -121,9 +121,9 @@ export function Header() {
               <Link
                 href="/"
                 className="font-serif text-[23px] font-medium tracking-[0.38em] text-[#1C1514] transition-colors hover:text-[#AE8439] sm:text-[28px]"
-                aria-label="ZAVERA Home"
+                aria-label="PIXTACY Home"
               >
-                ZAVERA
+                PIXTACY
               </Link>
             </div>
 

@@ -31,7 +31,7 @@ export function SafeProductImage({
         aria-label={alt}
       >
         <span className="font-serif text-lg tracking-[0.3em] text-[#8C7E75]">
-          ZAVERA
+          PIXTACY
         </span>
         {categoryLabel ? (
           <span className="mt-1.5 text-[10px] uppercase tracking-[0.18em] text-[#8C7E75]/80">

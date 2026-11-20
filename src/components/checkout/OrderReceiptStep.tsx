@@ -102,7 +102,7 @@ export function OrderReceiptStep({
                 Thank you, {order.shippingAddress.fullName}.
               </h2>
               <p className="mt-1.5 max-w-xl text-sm leading-relaxed text-[#5C504A]">
-                Your ZAVERA client demo order dossier is prepared with BIS &amp;
+                Your PIXTACY client demo order dossier is prepared with BIS &amp;
                 IGI certification records. No real payment was charged.
               </p>
             </div>
@@ -325,7 +325,7 @@ export function OrderReceiptStep({
               <div className="mt-4 rounded-[2px] border border-[#C69C4D]/40 bg-[#FAF7F2] p-5">
                 <div className="flex items-center justify-between border-b border-[#E5DDD0] pb-3">
                   <span className="font-serif text-xs uppercase tracking-[0.35em] text-[#8C7E75]">
-                    ZAVERA ATELIER
+                    PIXTACY ATELIER
                   </span>
                   <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#7A1E2C] font-serif text-[10px] font-semibold text-[#FAF7F2]">
                     Z
@@ -335,7 +335,7 @@ export function OrderReceiptStep({
                 <p className="mt-4 font-serif text-xl italic leading-relaxed text-[#1C1514]">
                   {order.giftNote
                     ? `“${order.giftNote}”`
-                    : '“With timeless warmth from ZAVERA — crafted to be cherished across generations.”'}
+                    : '“With timeless warmth from PIXTACY — crafted to be cherished across generations.”'}
                 </p>
 
                 <p className="mt-3 text-[11px] text-[#8C7E75]">

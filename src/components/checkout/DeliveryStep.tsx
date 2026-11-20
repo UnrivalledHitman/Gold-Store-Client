@@ -35,7 +35,7 @@ export interface DeliveryStepProps {
 
 /**
  * Step 1: Express Insured Courier vs Complimentary Boutique Pickup selector
- * over ZAVERA's 4 Indian salons, full validated Indian address form,
+ * over PIXTACY's 4 Indian salons, full validated Indian address form,
  * live Sequel pincode ETA lookup, and one-click "Fill Demo Address" walkthrough helper.
  */
 export function DeliveryStep({

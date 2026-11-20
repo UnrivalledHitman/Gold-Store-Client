@@ -32,7 +32,7 @@ function getCuratedBestsellers(): Product[] {
 
 /**
  * Section 5: Bestsellers Showcase featuring 8 top-performing pieces across all
- * four ZAVERA houses with interactive metal swatches, wishlist, and Quick Add.
+ * four PIXTACY houses with interactive metal swatches, wishlist, and Quick Add.
  */
 export function BestsellersShowcase() {
   const bestsellers = getCuratedBestsellers();
